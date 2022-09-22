@@ -16,19 +16,19 @@ var dTarih = "01 Ocak 1997"
 var sinif = "Mezun"
 
 //kitap
-kitapNo = 55
-var isbNo = 141312
-var kitapAdi = "Beyaz Zambaklar Ülkesi"
+kitapNo = 43
+let isbNo = 143422
+let kitapAdi = "Beyaz Zambaklar Ülkesi"
 var yazarNo: Int
-var turNo = 15
-var sayfaSayisi = 350
+var turNo: Int
+var sayfaSayisi = 140
 var puan = 100
 
 //yazar
 yazarNo = 2025
-var yazarAd = "İskender"
-var yazarSoyad = "Pala"
+var yazarAd = "Grigoriy"
+var yazarSoyad = "Petrov"
 
 //tur
-turNo; //tanımlı
-var turAdi = "Roman"
+turNo = 13
+let turAdi = "Seyahatname"
