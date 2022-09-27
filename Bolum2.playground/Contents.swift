@@ -383,3 +383,98 @@ memeli.sesCikar() // Kalıtım yoluyla kendisinde metod olmadığı için (Overr
 kedi.sesCikar() // Kalıtım yoluyla tekrar kullanılan (override) kendi metodlarıyla çalıştı
 kopek.sesCikar() // Kalıtım yoluyla tekrar kullanılan (override) kendi metodlarıyla çalıştı
 
+/// NESNE DONUSUMLERİn (Ön koşul kalıtım olmalı)
+/// IS, AS, AS?, AS!
+///  Downcasting - Upcasting
+///  Ev: SuperClass , Saray ve Villa: SubClass
+///  Ev in Saraya ve Viillaya dönüşmesi: Downcasting
+///  Sarayın veya villanın Eve dönüşmesi: Upcasting
+///   Saray Villaya veya Villa Saraya dönüşemez çünkü aralarında kalıtım ilişkisi yok
+/// is (type checking), as (up & downcasting), as? : nil değeri dönebilir, as!: nil değeri dönemez
+
+// UPCASTING
+var ev = Saray(kuleSayisi: 3, pencereSayisi: 10) as Ev
+
+// DOWNCASTING
+var saray = Ev(pencereSayisi: 4) as? Saray // as? ya da as!(ünlem riskli durumu göze alıyorum demek)
+
+if let s2 = Ev(pencereSayisi: 4) as? Saray {
+    print(s2)
+}
+
+// Tip Kontrolü
+if ev is Ev {
+    print("Nesne ev sınıfından türemiştir")
+} else {
+    print("Nesne ev sınıfından türememiştir")
+}
+
+/// PROTOCOL - Interface
+/// Hem structure hem class yapısını kullanılabilir
+/// Bir sınıf (class ve structure) birden fazla protokol alabilir.
+/// : ile eklenir
+/// Hazır taslak gibi düşünülebilir
+/// Javada: Interface
+/// Sınıflara özellik katar
+/// Veri transferi için de kullanılır
+/// Kalıtımdan farkı: 1) Birden fazla protokol eklenebilmesi, 2) Protokoldeki tüm metodlar eklenen sınıfta kullanılmalı
+
+protocol MyProtocol {
+    var degisken: Int {get set}
+    
+    func metod1()
+    func metod2() -> String
+}
+
+class ClassA: MyProtocol { //does not conform: Protokolun özelliklerini bu sınıfın içinde kullanmaslısın
+    var degisken: Int = 10
+    
+    func metod1() {
+        print("Metod 1 Çalıştı")
+    }
+    
+    func metod2() -> String {
+        return "Metod 2 çalıştı"
+    }
+}
+
+var a = ClassA()
+
+print(a.degisken)
+a.metod1()
+print(a.metod2())
+
+
+/// EXTENSION
+/// Benim sahip olduğum sınıflara metodlar oluşuturup her yerden erişebilirsin
+
+extension Int {
+    func carp(sayi: Int) -> Int { // Return etmek zorunda değil, parametresi olmayabilir vs.
+        return self * sayi // Self int sınıfındaki sayının kendisini ifade ediyor. Örn: 8.carp(sayi) daki 8
+    }
+}
+
+let x = 3.carp(sayi: 5)
+print(x)
+
+// Protokollerle alakalı bir yol var, protokollerin tüm metodları karmaşık gözğkmesin diye extension diyip yeni bir protokol oluşturabiliriz
+
+
+/// CLOSURE
+/// bir nesne tanıımladığımızda sonuna kapsam ekliyorsak ( {} ) bu ifade closure dır.
+/// Çoğunlukla kullanıyoruz, genelde biz yazmıyoruz
+///  { (parametre) - donus tipi }
+///  "in" ifadesi varsa bu closure dır
+
+let ifade = {
+    print("Çalıştı")
+}
+
+ifade() // Bu kısım süslü parantezin içindeki kısmı çalıştırmak gibi düşün
+
+let topla = {
+    (sayi1: Int, sayi2: Int) -> Int in
+    return sayi1 + sayi2
+}
+
+print(topla(3,4))
