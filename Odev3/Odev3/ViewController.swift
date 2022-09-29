@@ -11,12 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "Pizza"
+        self.navigationItem.title = "Add new Item"
         
         let appearance = UINavigationBarAppearance()
         appearance.backgroundColor = UIColor(named: "anaRenk")
-        appearance.titleTextAttributes = [.foregroundColor: UIColor(named: "yaziRenk1")!, .font: UIFont(name: "Raleway-VariableFont_wght", size: 22)!]
-        navigationController?.navigationBar.barStyle = .black
+        //appearance.titleTextAttributes = [.foregroundColor: UIColor(named: "yaziRenk1")!, .font: UIFont(name: "Raleway-Variable", size: 22)!]
         
         navigationController?.navigationBar.standardAppearance = appearance
         navigationController?.navigationBar.compactAppearance = appearance

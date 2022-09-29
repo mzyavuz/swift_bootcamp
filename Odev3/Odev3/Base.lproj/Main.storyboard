@@ -3,6 +3,7 @@
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -15,10 +16,148 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="99" translatesAutoresizingMaskIntoConstraints="NO" id="dD7-wv-TLa">
+                                <rect key="frame" x="45" y="101" width="300" height="204"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="280" verticalCompressionResistancePriority="280" image="45" translatesAutoresizingMaskIntoConstraints="NO" id="Ygn-Y4-cc6">
+                                        <rect key="frame" x="0.0" y="0.0" width="130" height="204"/>
+                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.10000000000000001" height="0.10000000000000001"/>
+                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Water" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YW9-7x-yJj">
+                                        <rect key="frame" x="229" y="0.0" width="71" height="204"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="pwf-pl-XZf"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jOG-f5-IUk">
+                                <rect key="frame" x="42" y="310" width="52" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Drink" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3cr-GJ-LV0">
+                                <rect key="frame" x="12.666666666666657" y="360.33333333333331" width="365" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="9l4-ua-cpp"/>
+                                    <constraint firstAttribute="width" constant="365" id="JGy-L1-nrb"/>
+                                </constraints>
+                                <color key="textColor" name="yaziRenk3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b5Q-gU-nhK">
+                                <rect key="frame" x="29.999999999999993" y="376" width="75.333333333333314" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="14 Ounches (414 ml)" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jSP-c0-0RL">
+                                <rect key="frame" x="12.666666666666657" y="437.33333333333331" width="365" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="BMB-GW-oea"/>
+                                    <constraint firstAttribute="width" constant="365" id="exr-Nb-Ttb"/>
+                                </constraints>
+                                <color key="textColor" name="yaziRenk3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wb1-jZ-a6p">
+                                <rect key="frame" x="29" y="453" width="70" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Today (27 Nov 2022)" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gcw-11-rv7">
+                                <rect key="frame" x="12.666666666666657" y="514.33333333333337" width="365" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="0Qr-xn-yBe"/>
+                                    <constraint firstAttribute="width" constant="365" id="tSg-9V-ju8"/>
+                                </constraints>
+                                <color key="textColor" name="yaziRenk3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Purchased" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2q-SS-AbJ">
+                                <rect key="frame" x="29" y="530" width="83" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="01 January 2023" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mSi-d9-86J">
+                                <rect key="frame" x="12.666666666666657" y="591" width="365" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="8I1-sp-uC7"/>
+                                    <constraint firstAttribute="width" constant="365" id="LNy-Da-BIf"/>
+                                </constraints>
+                                <color key="textColor" name="yaziRenk3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expires On" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6Y-ZK-DDm">
+                                <rect key="frame" x="29" y="607" width="82" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rke-cI-eQ0">
+                                <rect key="frame" x="133" y="769.66666666666663" width="124" height="34.333333333333371"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Add this item">
+                                    <color key="baseBackgroundColor" name="yaziRenk3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* Please confirm or change the expiry date as mentioned on the item!" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uX0-Fk-6C4">
+                                <rect key="frame" x="45" y="664" width="300" height="40.666666666666629"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="x2q-SS-AbJ" firstAttribute="top" secondItem="jSP-c0-0RL" secondAttribute="bottom" constant="39.670000000000002" id="0CN-ZM-Zbd"/>
+                            <constraint firstItem="jSP-c0-0RL" firstAttribute="top" secondItem="3cr-GJ-LV0" secondAttribute="bottom" constant="24" id="1XK-cl-krv"/>
+                            <constraint firstItem="dD7-wv-TLa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2TX-Kn-sAq"/>
+                            <constraint firstItem="jOG-f5-IUk" firstAttribute="top" secondItem="dD7-wv-TLa" secondAttribute="bottom" constant="5" id="3Tm-z3-KpW"/>
+                            <constraint firstItem="3cr-GJ-LV0" firstAttribute="top" secondItem="jOG-f5-IUk" secondAttribute="bottom" constant="30" id="8jE-Hk-VKC"/>
+                            <constraint firstItem="b5Q-gU-nhK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="GMz-Hr-wiI"/>
+                            <constraint firstItem="jOG-f5-IUk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="HG1-AS-4Fl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wb1-jZ-a6p" secondAttribute="trailing" constant="291" id="INJ-mn-jnK"/>
+                            <constraint firstItem="q6Y-ZK-DDm" firstAttribute="top" secondItem="gcw-11-rv7" secondAttribute="bottom" constant="39.670000000000002" id="KcB-LB-fv5"/>
+                            <constraint firstItem="mSi-d9-86J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NDB-Ff-Sdx"/>
+                            <constraint firstItem="uX0-Fk-6C4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="NNy-Cw-TG9"/>
+                            <constraint firstItem="mSi-d9-86J" firstAttribute="top" secondItem="gcw-11-rv7" secondAttribute="bottom" constant="23.670000000000002" id="NnG-lO-adw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jOG-f5-IUk" secondAttribute="trailing" constant="296" id="Onn-Bc-u0o"/>
+                            <constraint firstItem="Wb1-jZ-a6p" firstAttribute="top" secondItem="3cr-GJ-LV0" secondAttribute="bottom" constant="39.670000000000002" id="Tu4-Fw-aDk"/>
+                            <constraint firstItem="gcw-11-rv7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fla-Wr-P9r"/>
+                            <constraint firstItem="3cr-GJ-LV0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gws-1u-fpq"/>
+                            <constraint firstItem="dD7-wv-TLa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="hus-m9-VrI"/>
+                            <constraint firstItem="Rke-cI-eQ0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jxC-G3-wAE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="x2q-SS-AbJ" secondAttribute="trailing" constant="278" id="k20-iD-cZm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="q6Y-ZK-DDm" secondAttribute="trailing" constant="279" id="lTJ-oH-fQH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="b5Q-gU-nhK" secondAttribute="trailing" constant="284.67000000000002" id="lUe-Oo-95f"/>
+                            <constraint firstItem="uX0-Fk-6C4" firstAttribute="top" secondItem="mSi-d9-86J" secondAttribute="bottom" constant="20" id="m2G-Fj-ndE"/>
+                            <constraint firstItem="gcw-11-rv7" firstAttribute="top" secondItem="jSP-c0-0RL" secondAttribute="bottom" constant="24" id="o0h-Fw-pBM"/>
+                            <constraint firstItem="b5Q-gU-nhK" firstAttribute="top" secondItem="jOG-f5-IUk" secondAttribute="bottom" constant="45.670000000000002" id="pv1-JG-NGT"/>
+                            <constraint firstItem="jSP-c0-0RL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qJp-c7-e2j"/>
+                            <constraint firstItem="Wb1-jZ-a6p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="qp3-wF-K3o"/>
+                            <constraint firstItem="x2q-SS-AbJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="sQi-sm-0Fh"/>
+                            <constraint firstItem="q6Y-ZK-DDm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="wJA-p9-bqP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uX0-Fk-6C4" secondAttribute="trailing" constant="45" id="wyi-q1-pia"/>
+                            <constraint firstAttribute="bottom" secondItem="Rke-cI-eQ0" secondAttribute="bottom" constant="40" id="xar-qK-en0"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="jv5-2Y-098"/>
+                    <navigationItem key="navigationItem" id="jv5-2Y-098">
+                        <barButtonItem key="backBarButtonItem" title="Geri" id="2ur-Pa-0sH"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -44,6 +183,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="45" width="136" height="204"/>
+        <namedColor name="yaziRenk2">
+            <color red="0.57414853570000002" green="0.57416242360000003" blue="0.57415497299999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk3">
+            <color red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

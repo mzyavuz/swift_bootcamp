@@ -13,7 +13,7 @@
 		2151425628E5ABA4005218D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2151425428E5ABA4005218D4 /* Main.storyboard */; };
 		2151425828E5ABA5005218D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2151425728E5ABA5005218D4 /* Assets.xcassets */; };
 		2151425B28E5ABA5005218D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2151425928E5ABA5005218D4 /* LaunchScreen.storyboard */; };
-		2151426428E5AE8A005218D4 /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2151426328E5AE8A005218D4 /* Raleway-VariableFont_wght.ttf */; };
+		2151426C28E5CE93005218D4 /* Raleway-Variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2151426B28E5CE93005218D4 /* Raleway-Variable.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		2151425728E5ABA5005218D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2151425A28E5ABA5005218D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2151425C28E5ABA5005218D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2151426328E5AE8A005218D4 /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		2151426B28E5CE93005218D4 /* Raleway-Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Variable.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,17 +65,17 @@
 				2151425728E5ABA5005218D4 /* Assets.xcassets */,
 				2151425928E5ABA5005218D4 /* LaunchScreen.storyboard */,
 				2151425C28E5ABA5005218D4 /* Info.plist */,
-				2151426228E5ADD9005218D4 /* Font */,
+				2151426A28E5CE83005218D4 /* Fonts */,
 			);
 			path = Odev3;
 			sourceTree = "<group>";
 		};
-		2151426228E5ADD9005218D4 /* Font */ = {
+		2151426A28E5CE83005218D4 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				2151426328E5AE8A005218D4 /* Raleway-VariableFont_wght.ttf */,
+				2151426B28E5CE93005218D4 /* Raleway-Variable.ttf */,
 			);
-			path = Font;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2151425B28E5ABA5005218D4 /* LaunchScreen.storyboard in Resources */,
-				2151426428E5AE8A005218D4 /* Raleway-VariableFont_wght.ttf in Resources */,
+				2151426C28E5CE93005218D4 /* Raleway-Variable.ttf in Resources */,
 				2151425828E5ABA5005218D4 /* Assets.xcassets in Resources */,
 				2151425628E5ABA4005218D4 /* Main.storyboard in Resources */,
 			);
