@@ -7,31 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2152C87528E364C600DF807E /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2152C87428E364C600DF807E /* Pacifico-Regular.ttf */; };
-		21B68DCA28E2B7FE00F7A130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B68DC928E2B7FE00F7A130 /* AppDelegate.swift */; };
-		21B68DCC28E2B7FE00F7A130 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B68DCB28E2B7FE00F7A130 /* SceneDelegate.swift */; };
-		21B68DCE28E2B7FE00F7A130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B68DCD28E2B7FE00F7A130 /* ViewController.swift */; };
-		21B68DD128E2B7FE00F7A130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B68DCF28E2B7FE00F7A130 /* Main.storyboard */; };
-		21B68DD328E2B7FF00F7A130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B68DD228E2B7FF00F7A130 /* Assets.xcassets */; };
-		21B68DD628E2B7FF00F7A130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B68DD428E2B7FF00F7A130 /* LaunchScreen.storyboard */; };
+		2151424F28E5ABA4005218D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2151424E28E5ABA4005218D4 /* AppDelegate.swift */; };
+		2151425128E5ABA4005218D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2151425028E5ABA4005218D4 /* SceneDelegate.swift */; };
+		2151425328E5ABA4005218D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2151425228E5ABA4005218D4 /* ViewController.swift */; };
+		2151425628E5ABA4005218D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2151425428E5ABA4005218D4 /* Main.storyboard */; };
+		2151425828E5ABA5005218D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2151425728E5ABA5005218D4 /* Assets.xcassets */; };
+		2151425B28E5ABA5005218D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2151425928E5ABA5005218D4 /* LaunchScreen.storyboard */; };
+		2151426428E5AE8A005218D4 /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2151426328E5AE8A005218D4 /* Raleway-VariableFont_wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2152C87428E364C600DF807E /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
-		21B68DC628E2B7FE00F7A130 /* TasarimCalismasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasarimCalismasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		21B68DC928E2B7FE00F7A130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		21B68DCB28E2B7FE00F7A130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		21B68DCD28E2B7FE00F7A130 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		21B68DD028E2B7FE00F7A130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		21B68DD228E2B7FF00F7A130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		21B68DD528E2B7FF00F7A130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		21B68DD728E2B7FF00F7A130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21DC8BD928E37AB6002FBFA7 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
-		21DC8BDA28E37AB6002FBFA7 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2151424B28E5ABA4005218D4 /* Odev3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Odev3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2151424E28E5ABA4005218D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2151425028E5ABA4005218D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2151425228E5ABA4005218D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2151425528E5ABA4005218D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2151425728E5ABA5005218D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2151425A28E5ABA5005218D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2151425C28E5ABA5005218D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2151426328E5AE8A005218D4 /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		21B68DC328E2B7FE00F7A130 /* Frameworks */ = {
+		2151424828E5ABA4005218D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,141 +39,138 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2152C87328E3647D00DF807E /* Fonts */ = {
+		2151424228E5ABA4005218D4 = {
 			isa = PBXGroup;
 			children = (
-				2152C87428E364C600DF807E /* Pacifico-Regular.ttf */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
-		21B68DBD28E2B7FE00F7A130 = {
-			isa = PBXGroup;
-			children = (
-				21B68DC828E2B7FE00F7A130 /* TasarimCalismasi */,
-				21B68DC728E2B7FE00F7A130 /* Products */,
+				2151424D28E5ABA4005218D4 /* Odev3 */,
+				2151424C28E5ABA4005218D4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		21B68DC728E2B7FE00F7A130 /* Products */ = {
+		2151424C28E5ABA4005218D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21B68DC628E2B7FE00F7A130 /* TasarimCalismasi.app */,
+				2151424B28E5ABA4005218D4 /* Odev3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		21B68DC828E2B7FE00F7A130 /* TasarimCalismasi */ = {
+		2151424D28E5ABA4005218D4 /* Odev3 */ = {
 			isa = PBXGroup;
 			children = (
-				21B68DC928E2B7FE00F7A130 /* AppDelegate.swift */,
-				21B68DCB28E2B7FE00F7A130 /* SceneDelegate.swift */,
-				21B68DCD28E2B7FE00F7A130 /* ViewController.swift */,
-				21B68DCF28E2B7FE00F7A130 /* Main.storyboard */,
-				21B68DD228E2B7FF00F7A130 /* Assets.xcassets */,
-				21B68DD428E2B7FF00F7A130 /* LaunchScreen.storyboard */,
-				21B68DD728E2B7FF00F7A130 /* Info.plist */,
-				2152C87328E3647D00DF807E /* Fonts */,
+				2151424E28E5ABA4005218D4 /* AppDelegate.swift */,
+				2151425028E5ABA4005218D4 /* SceneDelegate.swift */,
+				2151425228E5ABA4005218D4 /* ViewController.swift */,
+				2151425428E5ABA4005218D4 /* Main.storyboard */,
+				2151425728E5ABA5005218D4 /* Assets.xcassets */,
+				2151425928E5ABA5005218D4 /* LaunchScreen.storyboard */,
+				2151425C28E5ABA5005218D4 /* Info.plist */,
+				2151426228E5ADD9005218D4 /* Font */,
 			);
-			path = TasarimCalismasi;
+			path = Odev3;
+			sourceTree = "<group>";
+		};
+		2151426228E5ADD9005218D4 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2151426328E5AE8A005218D4 /* Raleway-VariableFont_wght.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		21B68DC528E2B7FE00F7A130 /* TasarimCalismasi */ = {
+		2151424A28E5ABA4005218D4 /* Odev3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21B68DDA28E2B7FF00F7A130 /* Build configuration list for PBXNativeTarget "TasarimCalismasi" */;
+			buildConfigurationList = 2151425F28E5ABA5005218D4 /* Build configuration list for PBXNativeTarget "Odev3" */;
 			buildPhases = (
-				21B68DC228E2B7FE00F7A130 /* Sources */,
-				21B68DC328E2B7FE00F7A130 /* Frameworks */,
-				21B68DC428E2B7FE00F7A130 /* Resources */,
+				2151424728E5ABA4005218D4 /* Sources */,
+				2151424828E5ABA4005218D4 /* Frameworks */,
+				2151424928E5ABA4005218D4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TasarimCalismasi;
-			productName = TasarimCalismasi;
-			productReference = 21B68DC628E2B7FE00F7A130 /* TasarimCalismasi.app */;
+			name = Odev3;
+			productName = Odev3;
+			productReference = 2151424B28E5ABA4005218D4 /* Odev3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		21B68DBE28E2B7FE00F7A130 /* Project object */ = {
+		2151424328E5ABA4005218D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					21B68DC528E2B7FE00F7A130 = {
-						CreatedOnToolsVersion = 14.0;
+					2151424A28E5ABA4005218D4 = {
+						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 21B68DC128E2B7FE00F7A130 /* Build configuration list for PBXProject "TasarimCalismasi" */;
+			buildConfigurationList = 2151424628E5ABA4005218D4 /* Build configuration list for PBXProject "Odev3" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
-				tr,
 			);
-			mainGroup = 21B68DBD28E2B7FE00F7A130;
-			productRefGroup = 21B68DC728E2B7FE00F7A130 /* Products */;
+			mainGroup = 2151424228E5ABA4005218D4;
+			productRefGroup = 2151424C28E5ABA4005218D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21B68DC528E2B7FE00F7A130 /* TasarimCalismasi */,
+				2151424A28E5ABA4005218D4 /* Odev3 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		21B68DC428E2B7FE00F7A130 /* Resources */ = {
+		2151424928E5ABA4005218D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21B68DD628E2B7FF00F7A130 /* LaunchScreen.storyboard in Resources */,
-				2152C87528E364C600DF807E /* Pacifico-Regular.ttf in Resources */,
-				21B68DD328E2B7FF00F7A130 /* Assets.xcassets in Resources */,
-				21B68DD128E2B7FE00F7A130 /* Main.storyboard in Resources */,
+				2151425B28E5ABA5005218D4 /* LaunchScreen.storyboard in Resources */,
+				2151426428E5AE8A005218D4 /* Raleway-VariableFont_wght.ttf in Resources */,
+				2151425828E5ABA5005218D4 /* Assets.xcassets in Resources */,
+				2151425628E5ABA4005218D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		21B68DC228E2B7FE00F7A130 /* Sources */ = {
+		2151424728E5ABA4005218D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21B68DCE28E2B7FE00F7A130 /* ViewController.swift in Sources */,
-				21B68DCA28E2B7FE00F7A130 /* AppDelegate.swift in Sources */,
-				21B68DCC28E2B7FE00F7A130 /* SceneDelegate.swift in Sources */,
+				2151425328E5ABA4005218D4 /* ViewController.swift in Sources */,
+				2151424F28E5ABA4005218D4 /* AppDelegate.swift in Sources */,
+				2151425128E5ABA4005218D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		21B68DCF28E2B7FE00F7A130 /* Main.storyboard */ = {
+		2151425428E5ABA4005218D4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				21B68DD028E2B7FE00F7A130 /* Base */,
-				21DC8BD928E37AB6002FBFA7 /* tr */,
+				2151425528E5ABA4005218D4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		21B68DD428E2B7FF00F7A130 /* LaunchScreen.storyboard */ = {
+		2151425928E5ABA5005218D4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				21B68DD528E2B7FF00F7A130 /* Base */,
-				21DC8BDA28E37AB6002FBFA7 /* tr */,
+				2151425A28E5ABA5005218D4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -183,11 +178,10 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		21B68DD828E2B7FF00F7A130 /* Debug */ = {
+		2151425D28E5ABA5005218D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -244,11 +238,10 @@
 			};
 			name = Debug;
 		};
-		21B68DD928E2B7FF00F7A130 /* Release */ = {
+		2151425E28E5ABA5005218D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -299,7 +292,7 @@
 			};
 			name = Release;
 		};
-		21B68DDB28E2B7FF00F7A130 /* Debug */ = {
+		2151426028E5ABA5005218D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -307,7 +300,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TasarimCalismasi/Info.plist;
+				INFOPLIST_FILE = Odev3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,7 +311,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mzyavuz.info.TasarimCalismasi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mzyavuz.info.Odev3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -326,7 +319,7 @@
 			};
 			name = Debug;
 		};
-		21B68DDC28E2B7FF00F7A130 /* Release */ = {
+		2151426128E5ABA5005218D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -334,7 +327,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TasarimCalismasi/Info.plist;
+				INFOPLIST_FILE = Odev3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -345,7 +338,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mzyavuz.info.TasarimCalismasi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mzyavuz.info.Odev3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -356,25 +349,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		21B68DC128E2B7FE00F7A130 /* Build configuration list for PBXProject "TasarimCalismasi" */ = {
+		2151424628E5ABA4005218D4 /* Build configuration list for PBXProject "Odev3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21B68DD828E2B7FF00F7A130 /* Debug */,
-				21B68DD928E2B7FF00F7A130 /* Release */,
+				2151425D28E5ABA5005218D4 /* Debug */,
+				2151425E28E5ABA5005218D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21B68DDA28E2B7FF00F7A130 /* Build configuration list for PBXNativeTarget "TasarimCalismasi" */ = {
+		2151425F28E5ABA5005218D4 /* Build configuration list for PBXNativeTarget "Odev3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21B68DDB28E2B7FF00F7A130 /* Debug */,
-				21B68DDC28E2B7FF00F7A130 /* Release */,
+				2151426028E5ABA5005218D4 /* Debug */,
+				2151426128E5ABA5005218D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 21B68DBE28E2B7FE00F7A130 /* Project object */;
+	rootObject = 2151424328E5ABA4005218D4 /* Project object */;
 }

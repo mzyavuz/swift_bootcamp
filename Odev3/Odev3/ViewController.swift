@@ -1,13 +1,11 @@
 //
 //  ViewController.swift
-//  TasarimCalismasi
+//  Odev3
 //
-//  Created by M.Zeynep Yavuz on 27.09.2022.
+//  Created by M.Zeynep Yavuz on 29.09.2022.
 //
 
 import UIKit
-// left: leading = start
-// right = trailing = end
 
 class ViewController: UIViewController {
 
@@ -16,9 +14,9 @@ class ViewController: UIViewController {
         self.navigationItem.title = "Pizza"
         
         let appearance = UINavigationBarAppearance()
-        appearance.backgroundColor = UIColor(named: "anaRenk") // Arkaplan Rengi
-        appearance.titleTextAttributes = [.foregroundColor: UIColor(named: "yaziRenk1")!, .font: UIFont(name: "Pacifico-Regular", size: 22)!] // Yazi Rengi ve Fontu
-        navigationController?.navigationBar.barStyle = .black // Üstteki ikonların ve saatin rengini beyaz yapıyor
+        appearance.backgroundColor = UIColor(named: "anaRenk")
+        appearance.titleTextAttributes = [.foregroundColor: UIColor(named: "yaziRenk1")!, .font: UIFont(name: "Raleway-VariableFont_wght", size: 22)!]
+        navigationController?.navigationBar.barStyle = .black
         
         navigationController?.navigationBar.standardAppearance = appearance
         navigationController?.navigationBar.compactAppearance = appearance
