@@ -9,10 +9,10 @@
 
 ---
 
-[Tasarım Çalışması](https://github.com/mzyavuz/swift_bootcamp/tree/main/TasarimCalismasi/TasarimCalismasi)
+[4.Ders - Tasarım Çalışması](https://github.com/mzyavuz/swift_bootcamp/tree/main/TasarimCalismasi/TasarimCalismasi)
 
-[Çalışma Yapısı](https://github.com/mzyavuz/swift_bootcamp/tree/main/CalismaYapisi/CalismaYapisi)
+[5.Ders - Çalışma Yapısı](https://github.com/mzyavuz/swift_bootcamp/tree/main/CalismaYapisi/CalismaYapisi)
 
-[TabBarController Kullanımı](https://github.com/mzyavuz/swift_bootcamp/tree/main/TabBarControllerKullanimi/TabBarControllerKullanimi)
+[6.Ders - TabBarController Kullanımı](https://github.com/mzyavuz/swift_bootcamp/tree/main/TabBarControllerKullanimi/TabBarControllerKullanimi)
 
-[Widgets Kullanımı](https://github.com/mzyavuz/swift_bootcamp/tree/main/WidgetsKullanimi/WidgetsKullanimi)
+[7.Ders - Widgets Kullanımı](https://github.com/mzyavuz/swift_bootcamp/tree/main/WidgetsKullanimi/WidgetsKullanimi)
