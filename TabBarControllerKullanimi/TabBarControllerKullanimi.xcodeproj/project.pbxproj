@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2151424F28E5ABA4005218D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2151424E28E5ABA4005218D4 /* AppDelegate.swift */; };
-		2151425128E5ABA4005218D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2151425028E5ABA4005218D4 /* SceneDelegate.swift */; };
-		2151425328E5ABA4005218D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2151425228E5ABA4005218D4 /* ViewController.swift */; };
-		2151425628E5ABA4005218D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2151425428E5ABA4005218D4 /* Main.storyboard */; };
-		2151425828E5ABA5005218D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2151425728E5ABA5005218D4 /* Assets.xcassets */; };
-		2151425B28E5ABA5005218D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2151425928E5ABA5005218D4 /* LaunchScreen.storyboard */; };
-		21F6141B28E5FACE00D2CE81 /* Raleway-VariableFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F6141A28E5FACE00D2CE81 /* Raleway-VariableFont.ttf */; };
+		21F6144F28E612F700D2CE81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6144E28E612F700D2CE81 /* AppDelegate.swift */; };
+		21F6145128E612F700D2CE81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6145028E612F700D2CE81 /* SceneDelegate.swift */; };
+		21F6145328E612F700D2CE81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6145228E612F700D2CE81 /* ViewController.swift */; };
+		21F6145628E612F700D2CE81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F6145428E612F700D2CE81 /* Main.storyboard */; };
+		21F6145828E612F700D2CE81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F6145728E612F700D2CE81 /* Assets.xcassets */; };
+		21F6145B28E612F700D2CE81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F6145928E612F700D2CE81 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2151424B28E5ABA4005218D4 /* Odev3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Odev3.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2151424E28E5ABA4005218D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2151425028E5ABA4005218D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2151425228E5ABA4005218D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2151425528E5ABA4005218D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2151425728E5ABA5005218D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2151425A28E5ABA5005218D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2151425C28E5ABA5005218D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21F6141A28E5FACE00D2CE81 /* Raleway-VariableFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-VariableFont.ttf"; sourceTree = "<group>"; };
+		21F6144B28E612F700D2CE81 /* TabBarControllerKullanimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarControllerKullanimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F6144E28E612F700D2CE81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21F6145028E612F700D2CE81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		21F6145228E612F700D2CE81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21F6145528E612F700D2CE81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21F6145728E612F700D2CE81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21F6145A28E612F700D2CE81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21F6145C28E612F700D2CE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2151424828E5ABA4005218D4 /* Frameworks */ = {
+		21F6144828E612F700D2CE81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,81 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2151424228E5ABA4005218D4 = {
+		21F6144228E612F700D2CE81 = {
 			isa = PBXGroup;
 			children = (
-				2151424D28E5ABA4005218D4 /* Odev3 */,
-				2151424C28E5ABA4005218D4 /* Products */,
+				21F6144D28E612F700D2CE81 /* TabBarControllerKullanimi */,
+				21F6144C28E612F700D2CE81 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2151424C28E5ABA4005218D4 /* Products */ = {
+		21F6144C28E612F700D2CE81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2151424B28E5ABA4005218D4 /* Odev3.app */,
+				21F6144B28E612F700D2CE81 /* TabBarControllerKullanimi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2151424D28E5ABA4005218D4 /* Odev3 */ = {
+		21F6144D28E612F700D2CE81 /* TabBarControllerKullanimi */ = {
 			isa = PBXGroup;
 			children = (
-				2151424E28E5ABA4005218D4 /* AppDelegate.swift */,
-				2151425028E5ABA4005218D4 /* SceneDelegate.swift */,
-				2151425228E5ABA4005218D4 /* ViewController.swift */,
-				2151425428E5ABA4005218D4 /* Main.storyboard */,
-				2151425728E5ABA5005218D4 /* Assets.xcassets */,
-				2151425928E5ABA5005218D4 /* LaunchScreen.storyboard */,
-				2151425C28E5ABA5005218D4 /* Info.plist */,
-				2151426A28E5CE83005218D4 /* Fonts */,
+				21F6144E28E612F700D2CE81 /* AppDelegate.swift */,
+				21F6145028E612F700D2CE81 /* SceneDelegate.swift */,
+				21F6145228E612F700D2CE81 /* ViewController.swift */,
+				21F6145428E612F700D2CE81 /* Main.storyboard */,
+				21F6145728E612F700D2CE81 /* Assets.xcassets */,
+				21F6145928E612F700D2CE81 /* LaunchScreen.storyboard */,
+				21F6145C28E612F700D2CE81 /* Info.plist */,
 			);
-			path = Odev3;
-			sourceTree = "<group>";
-		};
-		2151426A28E5CE83005218D4 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				21F6141A28E5FACE00D2CE81 /* Raleway-VariableFont.ttf */,
-			);
-			path = Fonts;
+			path = TabBarControllerKullanimi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2151424A28E5ABA4005218D4 /* Odev3 */ = {
+		21F6144A28E612F700D2CE81 /* TabBarControllerKullanimi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2151425F28E5ABA5005218D4 /* Build configuration list for PBXNativeTarget "Odev3" */;
+			buildConfigurationList = 21F6145F28E612F700D2CE81 /* Build configuration list for PBXNativeTarget "TabBarControllerKullanimi" */;
 			buildPhases = (
-				2151424728E5ABA4005218D4 /* Sources */,
-				2151424828E5ABA4005218D4 /* Frameworks */,
-				2151424928E5ABA4005218D4 /* Resources */,
+				21F6144728E612F700D2CE81 /* Sources */,
+				21F6144828E612F700D2CE81 /* Frameworks */,
+				21F6144928E612F700D2CE81 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Odev3;
-			productName = Odev3;
-			productReference = 2151424B28E5ABA4005218D4 /* Odev3.app */;
+			name = TabBarControllerKullanimi;
+			productName = TabBarControllerKullanimi;
+			productReference = 21F6144B28E612F700D2CE81 /* TabBarControllerKullanimi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2151424328E5ABA4005218D4 /* Project object */ = {
+		21F6144328E612F700D2CE81 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					2151424A28E5ABA4005218D4 = {
+					21F6144A28E612F700D2CE81 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 2151424628E5ABA4005218D4 /* Build configuration list for PBXProject "Odev3" */;
+			buildConfigurationList = 21F6144628E612F700D2CE81 /* Build configuration list for PBXProject "TabBarControllerKullanimi" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,56 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 2151424228E5ABA4005218D4;
-			productRefGroup = 2151424C28E5ABA4005218D4 /* Products */;
+			mainGroup = 21F6144228E612F700D2CE81;
+			productRefGroup = 21F6144C28E612F700D2CE81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2151424A28E5ABA4005218D4 /* Odev3 */,
+				21F6144A28E612F700D2CE81 /* TabBarControllerKullanimi */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2151424928E5ABA4005218D4 /* Resources */ = {
+		21F6144928E612F700D2CE81 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2151425B28E5ABA5005218D4 /* LaunchScreen.storyboard in Resources */,
-				21F6141B28E5FACE00D2CE81 /* Raleway-VariableFont.ttf in Resources */,
-				2151425828E5ABA5005218D4 /* Assets.xcassets in Resources */,
-				2151425628E5ABA4005218D4 /* Main.storyboard in Resources */,
+				21F6145B28E612F700D2CE81 /* LaunchScreen.storyboard in Resources */,
+				21F6145828E612F700D2CE81 /* Assets.xcassets in Resources */,
+				21F6145628E612F700D2CE81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2151424728E5ABA4005218D4 /* Sources */ = {
+		21F6144728E612F700D2CE81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2151425328E5ABA4005218D4 /* ViewController.swift in Sources */,
-				2151424F28E5ABA4005218D4 /* AppDelegate.swift in Sources */,
-				2151425128E5ABA4005218D4 /* SceneDelegate.swift in Sources */,
+				21F6145328E612F700D2CE81 /* ViewController.swift in Sources */,
+				21F6144F28E612F700D2CE81 /* AppDelegate.swift in Sources */,
+				21F6145128E612F700D2CE81 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2151425428E5ABA4005218D4 /* Main.storyboard */ = {
+		21F6145428E612F700D2CE81 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2151425528E5ABA4005218D4 /* Base */,
+				21F6145528E612F700D2CE81 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2151425928E5ABA5005218D4 /* LaunchScreen.storyboard */ = {
+		21F6145928E612F700D2CE81 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2151425A28E5ABA5005218D4 /* Base */,
+				21F6145A28E612F700D2CE81 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2151425D28E5ABA5005218D4 /* Debug */ = {
+		21F6145D28E612F700D2CE81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		2151425E28E5ABA5005218D4 /* Release */ = {
+		21F6145E28E612F700D2CE81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,7 +280,7 @@
 			};
 			name = Release;
 		};
-		2151426028E5ABA5005218D4 /* Debug */ = {
+		21F6146028E612F700D2CE81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -300,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Odev3/Info.plist;
+				INFOPLIST_FILE = TabBarControllerKullanimi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -311,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mzyavuz.info.Odev3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mzyavuz.info.TabBarControllerKullanimi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		2151426128E5ABA5005218D4 /* Release */ = {
+		21F6146128E612F700D2CE81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -327,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Odev3/Info.plist;
+				INFOPLIST_FILE = TabBarControllerKullanimi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -338,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mzyavuz.info.Odev3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mzyavuz.info.TabBarControllerKullanimi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -349,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2151424628E5ABA4005218D4 /* Build configuration list for PBXProject "Odev3" */ = {
+		21F6144628E612F700D2CE81 /* Build configuration list for PBXProject "TabBarControllerKullanimi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2151425D28E5ABA5005218D4 /* Debug */,
-				2151425E28E5ABA5005218D4 /* Release */,
+				21F6145D28E612F700D2CE81 /* Debug */,
+				21F6145E28E612F700D2CE81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2151425F28E5ABA5005218D4 /* Build configuration list for PBXNativeTarget "Odev3" */ = {
+		21F6145F28E612F700D2CE81 /* Build configuration list for PBXNativeTarget "TabBarControllerKullanimi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2151426028E5ABA5005218D4 /* Debug */,
-				2151426128E5ABA5005218D4 /* Release */,
+				21F6146028E612F700D2CE81 /* Debug */,
+				21F6146128E612F700D2CE81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2151424328E5ABA4005218D4 /* Project object */;
+	rootObject = 21F6144328E612F700D2CE81 /* Project object */;
 }
