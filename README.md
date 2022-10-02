@@ -27,4 +27,4 @@
 
 [3.Ödev - Sayfa Tasarımı](https://github.com/mzyavuz/swift_bootcamp/tree/main/Odev3)
 
-[4.Ödev - Navigation (Sayfa Geçişleri](https://github.com/mzyavuz/swift_bootcamp/tree/main/Odev4)
+[4.Ödev - Navigation (Sayfa Geçişleri)](https://github.com/mzyavuz/swift_bootcamp/tree/main/Odev4)
