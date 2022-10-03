@@ -17,6 +17,16 @@
 
 [7.Ders - Widgets Kullanımı](https://github.com/mzyavuz/swift_bootcamp/tree/main/WidgetsKullanimi/WidgetsKullanimi)
 
+[8.Ders - Kullanıcı Etkileşimi](https://github.com/mzyavuz/swift_bootcamp/tree/main/KullaniciEtkilesimi/KullaniciEtkilesimi)
+
+[9.Ders - DateTimePicker Kullanımı](https://github.com/mzyavuz/swift_bootcamp/tree/main/DateTimePickerKullanimi/DateTimePickerKullanimi)
+
+---
+
+### Uygulamalar
+
+[10.Ders - Kişiler Uygulaması](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasi/KisilerUygulamasi)
+
 ---
 
 ### Ödevler
