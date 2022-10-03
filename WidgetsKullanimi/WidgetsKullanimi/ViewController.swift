@@ -9,14 +9,29 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
     @IBOutlet weak var labelSonuc: UILabel!
     
     @IBOutlet weak var textfieldGirdi: UITextField!
+    
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    
+    @IBOutlet weak var labelSlider: UILabel!
+    
+    @IBOutlet weak var slider: UISlider!
+    
+    @IBOutlet weak var labelStepper: UILabel!
+    
+    @IBOutlet weak var stepper: UIStepper!
+    
+    @IBOutlet weak var indicator: UIActivityIndicatorView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        labelSlider.text = String(Int(slider.value))
+        labelStepper.text = String(Int(stepper.value))
+        indicator.isHidden = true
+    }
     
     @IBAction func buttonYap(_ sender: Any) {
         if let alinanVeri = textfieldGirdi.text {
@@ -47,7 +62,38 @@ class ViewController: UIViewController {
     
     @IBAction func buttonGoster(_ sender: Any) {
         print("Switch en son durum \(mSwitch.isOn)")
+        let secilenIndeks = segmentedControl.selectedSegmentIndex
+        let secilenKategori = segmentedControl.titleForSegment(at: secilenIndeks)
+        print("En son seçim : \(secilenKategori!)")
+        print("Slider Sonuç : \(slider.value)")
+        print("Stepper Sonuç : \(stepper.value)")
     }
     
+    @IBAction func segmentedDegisim(_ sender: UISegmentedControl) {
+        let secilenIndeks = sender.selectedSegmentIndex
+        let secilenKategori = sender.titleForSegment(at: secilenIndeks)
+        print("Seçim : \(secilenKategori!)")
+    }
+    
+    @IBAction func sliderDegisim(_ sender: UISlider) {
+        labelSlider.text = String(Int(sender.value))
+        
+    }
+    
+    
+    @IBAction func stepperDegisim(_ sender: UIStepper) {
+        labelStepper.text = String(Int(sender.value))
+    }
+    
+    
+    @IBAction func buttonBasla(_ sender: Any) {
+        indicator.isHidden = false
+        indicator.startAnimating()
+    }
+    
+    @IBAction func buttonDur(_ sender: Any) {
+        indicator.isHidden = true
+        indicator.stopAnimating()
+    }
 }
 
