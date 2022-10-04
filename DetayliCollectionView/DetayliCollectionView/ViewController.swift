@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Odev5
+//  DetayliCollectionView
 //
-//  Created by M.Zeynep Cakmakci on 3.10.2022.
+//  Created by M.Zeynep Cakmakci on 4.10.2022.
 //
 
 import UIKit

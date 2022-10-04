@@ -7,35 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		211BF99528EC98B6004DE90E /* TableViewHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211BF99428EC98B6004DE90E /* TableViewHucre.swift */; };
-		2148D81028EA13370014A680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148D80F28EA13370014A680 /* AppDelegate.swift */; };
-		2148D81228EA13370014A680 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148D81128EA13370014A680 /* SceneDelegate.swift */; };
-		2148D81428EA13370014A680 /* AnasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148D81328EA13370014A680 /* AnasayfaVC.swift */; };
-		2148D81728EA13370014A680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2148D81528EA13370014A680 /* Main.storyboard */; };
-		2148D81928EA13380014A680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2148D81828EA13380014A680 /* Assets.xcassets */; };
-		2148D81C28EA13380014A680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2148D81A28EA13380014A680 /* LaunchScreen.storyboard */; };
-		2148D82428EA15000014A680 /* KisiKayitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148D82328EA15000014A680 /* KisiKayitVC.swift */; };
-		2148D82628EA15210014A680 /* KisiDetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148D82528EA15210014A680 /* KisiDetayVC.swift */; };
-		2148D82828EA1E740014A680 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148D82728EA1E740014A680 /* Kisiler.swift */; };
+		211BF9A328ECA687004DE90E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211BF9A228ECA687004DE90E /* AppDelegate.swift */; };
+		211BF9A528ECA687004DE90E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211BF9A428ECA687004DE90E /* SceneDelegate.swift */; };
+		211BF9A728ECA687004DE90E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211BF9A628ECA687004DE90E /* ViewController.swift */; };
+		211BF9AA28ECA687004DE90E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211BF9A828ECA687004DE90E /* Main.storyboard */; };
+		211BF9AC28ECA687004DE90E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211BF9AB28ECA687004DE90E /* Assets.xcassets */; };
+		211BF9AF28ECA687004DE90E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211BF9AD28ECA687004DE90E /* LaunchScreen.storyboard */; };
+		211BF9B728ECA730004DE90E /* Urunler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211BF9B628ECA730004DE90E /* Urunler.swift */; };
+		211BF9B928ECAF77004DE90E /* UrunTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211BF9B828ECAF77004DE90E /* UrunTableViewCell.swift */; };
+		211BF9BB28ECBC90004DE90E /* DetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211BF9BA28ECBC90004DE90E /* DetayVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		211BF99428EC98B6004DE90E /* TableViewHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHucre.swift; sourceTree = "<group>"; };
-		2148D80C28EA13370014A680 /* KisilerUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KisilerUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2148D80F28EA13370014A680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2148D81128EA13370014A680 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2148D81328EA13370014A680 /* AnasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVC.swift; sourceTree = "<group>"; };
-		2148D81628EA13370014A680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2148D81828EA13380014A680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2148D81B28EA13380014A680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2148D81D28EA13380014A680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2148D82328EA15000014A680 /* KisiKayitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitVC.swift; sourceTree = "<group>"; };
-		2148D82528EA15210014A680 /* KisiDetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayVC.swift; sourceTree = "<group>"; };
-		2148D82728EA1E740014A680 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
+		211BF99F28ECA687004DE90E /* DetayliTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DetayliTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		211BF9A228ECA687004DE90E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		211BF9A428ECA687004DE90E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		211BF9A628ECA687004DE90E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		211BF9A928ECA687004DE90E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		211BF9AB28ECA687004DE90E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		211BF9AE28ECA687004DE90E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		211BF9B028ECA687004DE90E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211BF9B628ECA730004DE90E /* Urunler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urunler.swift; sourceTree = "<group>"; };
+		211BF9B828ECAF77004DE90E /* UrunTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrunTableViewCell.swift; sourceTree = "<group>"; };
+		211BF9BA28ECBC90004DE90E /* DetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2148D80928EA13370014A680 /* Frameworks */ = {
+		211BF99C28ECA687004DE90E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,76 +43,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2148D80328EA13370014A680 = {
+		211BF99628ECA686004DE90E = {
 			isa = PBXGroup;
 			children = (
-				2148D80E28EA13370014A680 /* KisilerUygulamasi */,
-				2148D80D28EA13370014A680 /* Products */,
+				211BF9A128ECA687004DE90E /* DetayliTableView */,
+				211BF9A028ECA687004DE90E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2148D80D28EA13370014A680 /* Products */ = {
+		211BF9A028ECA687004DE90E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2148D80C28EA13370014A680 /* KisilerUygulamasi.app */,
+				211BF99F28ECA687004DE90E /* DetayliTableView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2148D80E28EA13370014A680 /* KisilerUygulamasi */ = {
+		211BF9A128ECA687004DE90E /* DetayliTableView */ = {
 			isa = PBXGroup;
 			children = (
-				2148D80F28EA13370014A680 /* AppDelegate.swift */,
-				2148D81128EA13370014A680 /* SceneDelegate.swift */,
-				2148D81328EA13370014A680 /* AnasayfaVC.swift */,
-				2148D82328EA15000014A680 /* KisiKayitVC.swift */,
-				2148D82528EA15210014A680 /* KisiDetayVC.swift */,
-				2148D82728EA1E740014A680 /* Kisiler.swift */,
-				211BF99428EC98B6004DE90E /* TableViewHucre.swift */,
-				2148D81528EA13370014A680 /* Main.storyboard */,
-				2148D81828EA13380014A680 /* Assets.xcassets */,
-				2148D81A28EA13380014A680 /* LaunchScreen.storyboard */,
-				2148D81D28EA13380014A680 /* Info.plist */,
+				211BF9A228ECA687004DE90E /* AppDelegate.swift */,
+				211BF9A428ECA687004DE90E /* SceneDelegate.swift */,
+				211BF9A628ECA687004DE90E /* ViewController.swift */,
+				211BF9B628ECA730004DE90E /* Urunler.swift */,
+				211BF9B828ECAF77004DE90E /* UrunTableViewCell.swift */,
+				211BF9BA28ECBC90004DE90E /* DetayVC.swift */,
+				211BF9A828ECA687004DE90E /* Main.storyboard */,
+				211BF9AB28ECA687004DE90E /* Assets.xcassets */,
+				211BF9AD28ECA687004DE90E /* LaunchScreen.storyboard */,
+				211BF9B028ECA687004DE90E /* Info.plist */,
 			);
-			path = KisilerUygulamasi;
+			path = DetayliTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2148D80B28EA13370014A680 /* KisilerUygulamasi */ = {
+		211BF99E28ECA687004DE90E /* DetayliTableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2148D82028EA13380014A680 /* Build configuration list for PBXNativeTarget "KisilerUygulamasi" */;
+			buildConfigurationList = 211BF9B328ECA687004DE90E /* Build configuration list for PBXNativeTarget "DetayliTableView" */;
 			buildPhases = (
-				2148D80828EA13370014A680 /* Sources */,
-				2148D80928EA13370014A680 /* Frameworks */,
-				2148D80A28EA13370014A680 /* Resources */,
+				211BF99B28ECA687004DE90E /* Sources */,
+				211BF99C28ECA687004DE90E /* Frameworks */,
+				211BF99D28ECA687004DE90E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KisilerUygulamasi;
-			productName = KisilerUygulamasi;
-			productReference = 2148D80C28EA13370014A680 /* KisilerUygulamasi.app */;
+			name = DetayliTableView;
+			productName = DetayliTableView;
+			productReference = 211BF99F28ECA687004DE90E /* DetayliTableView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2148D80428EA13370014A680 /* Project object */ = {
+		211BF99728ECA686004DE90E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					2148D80B28EA13370014A680 = {
+					211BF99E28ECA687004DE90E = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 2148D80728EA13370014A680 /* Build configuration list for PBXProject "KisilerUygulamasi" */;
+			buildConfigurationList = 211BF99A28ECA686004DE90E /* Build configuration list for PBXProject "DetayliTableView" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,59 +119,58 @@
 				en,
 				Base,
 			);
-			mainGroup = 2148D80328EA13370014A680;
-			productRefGroup = 2148D80D28EA13370014A680 /* Products */;
+			mainGroup = 211BF99628ECA686004DE90E;
+			productRefGroup = 211BF9A028ECA687004DE90E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2148D80B28EA13370014A680 /* KisilerUygulamasi */,
+				211BF99E28ECA687004DE90E /* DetayliTableView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2148D80A28EA13370014A680 /* Resources */ = {
+		211BF99D28ECA687004DE90E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2148D81C28EA13380014A680 /* LaunchScreen.storyboard in Resources */,
-				2148D81928EA13380014A680 /* Assets.xcassets in Resources */,
-				2148D81728EA13370014A680 /* Main.storyboard in Resources */,
+				211BF9AF28ECA687004DE90E /* LaunchScreen.storyboard in Resources */,
+				211BF9AC28ECA687004DE90E /* Assets.xcassets in Resources */,
+				211BF9AA28ECA687004DE90E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2148D80828EA13370014A680 /* Sources */ = {
+		211BF99B28ECA687004DE90E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2148D82628EA15210014A680 /* KisiDetayVC.swift in Sources */,
-				2148D81428EA13370014A680 /* AnasayfaVC.swift in Sources */,
-				2148D81028EA13370014A680 /* AppDelegate.swift in Sources */,
-				211BF99528EC98B6004DE90E /* TableViewHucre.swift in Sources */,
-				2148D81228EA13370014A680 /* SceneDelegate.swift in Sources */,
-				2148D82428EA15000014A680 /* KisiKayitVC.swift in Sources */,
-				2148D82828EA1E740014A680 /* Kisiler.swift in Sources */,
+				211BF9BB28ECBC90004DE90E /* DetayVC.swift in Sources */,
+				211BF9A728ECA687004DE90E /* ViewController.swift in Sources */,
+				211BF9B728ECA730004DE90E /* Urunler.swift in Sources */,
+				211BF9A328ECA687004DE90E /* AppDelegate.swift in Sources */,
+				211BF9A528ECA687004DE90E /* SceneDelegate.swift in Sources */,
+				211BF9B928ECAF77004DE90E /* UrunTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2148D81528EA13370014A680 /* Main.storyboard */ = {
+		211BF9A828ECA687004DE90E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2148D81628EA13370014A680 /* Base */,
+				211BF9A928ECA687004DE90E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2148D81A28EA13380014A680 /* LaunchScreen.storyboard */ = {
+		211BF9AD28ECA687004DE90E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2148D81B28EA13380014A680 /* Base */,
+				211BF9AE28ECA687004DE90E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,7 +178,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2148D81E28EA13380014A680 /* Debug */ = {
+		211BF9B128ECA687004DE90E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		2148D81F28EA13380014A680 /* Release */ = {
+		211BF9B228ECA687004DE90E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,7 +292,7 @@
 			};
 			name = Release;
 		};
-		2148D82128EA13380014A680 /* Debug */ = {
+		211BF9B428ECA687004DE90E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -304,7 +300,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KisilerUygulamasi/Info.plist;
+				INFOPLIST_FILE = DetayliTableView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,7 +311,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mzyavuz.info.KisilerUygulamasi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mzyavuz.info.DetayliTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,7 +319,7 @@
 			};
 			name = Debug;
 		};
-		2148D82228EA13380014A680 /* Release */ = {
+		211BF9B528ECA687004DE90E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -331,7 +327,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KisilerUygulamasi/Info.plist;
+				INFOPLIST_FILE = DetayliTableView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -342,7 +338,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mzyavuz.info.KisilerUygulamasi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mzyavuz.info.DetayliTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,25 +349,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2148D80728EA13370014A680 /* Build configuration list for PBXProject "KisilerUygulamasi" */ = {
+		211BF99A28ECA686004DE90E /* Build configuration list for PBXProject "DetayliTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2148D81E28EA13380014A680 /* Debug */,
-				2148D81F28EA13380014A680 /* Release */,
+				211BF9B128ECA687004DE90E /* Debug */,
+				211BF9B228ECA687004DE90E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2148D82028EA13380014A680 /* Build configuration list for PBXNativeTarget "KisilerUygulamasi" */ = {
+		211BF9B328ECA687004DE90E /* Build configuration list for PBXNativeTarget "DetayliTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2148D82128EA13380014A680 /* Debug */,
-				2148D82228EA13380014A680 /* Release */,
+				211BF9B428ECA687004DE90E /* Debug */,
+				211BF9B528ECA687004DE90E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2148D80428EA13370014A680 /* Project object */;
+	rootObject = 211BF99728ECA686004DE90E /* Project object */;
 }

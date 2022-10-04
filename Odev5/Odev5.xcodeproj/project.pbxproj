@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		211BF99128EACBA8004DE90E /* Sayilar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211BF99028EACBA8004DE90E /* Sayilar.swift */; };
+		211BF99328EACD14004DE90E /* IntButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211BF99228EACD14004DE90E /* IntButton.swift */; };
 		21ABB35128EA9640007D3675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ABB35028EA9640007D3675 /* AppDelegate.swift */; };
 		21ABB35328EA9640007D3675 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ABB35228EA9640007D3675 /* SceneDelegate.swift */; };
-		21ABB35528EA9640007D3675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ABB35428EA9640007D3675 /* ViewController.swift */; };
+		21ABB35528EA9640007D3675 /* HesapMakinesi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ABB35428EA9640007D3675 /* HesapMakinesi.swift */; };
 		21ABB35828EA9640007D3675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21ABB35628EA9640007D3675 /* Main.storyboard */; };
 		21ABB35A28EA9641007D3675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21ABB35928EA9641007D3675 /* Assets.xcassets */; };
 		21ABB35D28EA9641007D3675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21ABB35B28EA9641007D3675 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		211BF99028EACBA8004DE90E /* Sayilar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sayilar.swift; sourceTree = "<group>"; };
+		211BF99228EACD14004DE90E /* IntButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntButton.swift; sourceTree = "<group>"; };
 		21ABB34D28EA9640007D3675 /* Odev5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Odev5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21ABB35028EA9640007D3675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21ABB35228EA9640007D3675 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		21ABB35428EA9640007D3675 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21ABB35428EA9640007D3675 /* HesapMakinesi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HesapMakinesi.swift; sourceTree = "<group>"; };
 		21ABB35728EA9640007D3675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21ABB35928EA9641007D3675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21ABB35C28EA9641007D3675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				21ABB35028EA9640007D3675 /* AppDelegate.swift */,
 				21ABB35228EA9640007D3675 /* SceneDelegate.swift */,
-				21ABB35428EA9640007D3675 /* ViewController.swift */,
+				21ABB35428EA9640007D3675 /* HesapMakinesi.swift */,
+				211BF99228EACD14004DE90E /* IntButton.swift */,
+				211BF99028EACBA8004DE90E /* Sayilar.swift */,
 				21ABB35628EA9640007D3675 /* Main.storyboard */,
 				21ABB35928EA9641007D3675 /* Assets.xcassets */,
 				21ABB35B28EA9641007D3675 /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21ABB35528EA9640007D3675 /* ViewController.swift in Sources */,
+				21ABB35528EA9640007D3675 /* HesapMakinesi.swift in Sources */,
+				211BF99328EACD14004DE90E /* IntButton.swift in Sources */,
+				211BF99128EACBA8004DE90E /* Sayilar.swift in Sources */,
 				21ABB35128EA9640007D3675 /* AppDelegate.swift in Sources */,
 				21ABB35328EA9640007D3675 /* SceneDelegate.swift in Sources */,
 			);
