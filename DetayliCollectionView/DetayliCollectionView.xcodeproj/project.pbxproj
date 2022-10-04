@@ -13,6 +13,8 @@
 		211BF9D028ECC184004DE90E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211BF9CE28ECC184004DE90E /* Main.storyboard */; };
 		211BF9D228ECC185004DE90E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211BF9D128ECC185004DE90E /* Assets.xcassets */; };
 		211BF9D528ECC185004DE90E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211BF9D328ECC185004DE90E /* LaunchScreen.storyboard */; };
+		211BF9DD28ECC295004DE90E /* Filmler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211BF9DC28ECC295004DE90E /* Filmler.swift */; };
+		211BF9DF28ECC48A004DE90E /* FilmCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211BF9DE28ECC48A004DE90E /* FilmCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		211BF9D128ECC185004DE90E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		211BF9D428ECC185004DE90E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		211BF9D628ECC185004DE90E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211BF9DC28ECC295004DE90E /* Filmler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filmler.swift; sourceTree = "<group>"; };
+		211BF9DE28ECC48A004DE90E /* FilmCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				211BF9C828ECC184004DE90E /* AppDelegate.swift */,
 				211BF9CA28ECC184004DE90E /* SceneDelegate.swift */,
 				211BF9CC28ECC184004DE90E /* ViewController.swift */,
+				211BF9DC28ECC295004DE90E /* Filmler.swift */,
+				211BF9DE28ECC48A004DE90E /* FilmCollectionViewCell.swift */,
 				211BF9CE28ECC184004DE90E /* Main.storyboard */,
 				211BF9D128ECC185004DE90E /* Assets.xcassets */,
 				211BF9D328ECC185004DE90E /* LaunchScreen.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				211BF9CD28ECC184004DE90E /* ViewController.swift in Sources */,
+				211BF9DF28ECC48A004DE90E /* FilmCollectionViewCell.swift in Sources */,
 				211BF9C928ECC184004DE90E /* AppDelegate.swift in Sources */,
 				211BF9CB28ECC184004DE90E /* SceneDelegate.swift in Sources */,
+				211BF9DD28ECC295004DE90E /* Filmler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
