@@ -29,7 +29,7 @@
 
 ### Uygulamalar
 
-[10.Ders - Kişiler Uygulaması](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasi/KisilerUygulamasi)
+[Kişiler Uygulaması](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasi/KisilerUygulamasi)
 
 ---
 
