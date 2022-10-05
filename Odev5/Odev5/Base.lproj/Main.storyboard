@@ -42,6 +42,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="clicked7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="veQ-0K-lz0"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="247" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Slt-Ia-OeQ">
                                                 <rect key="frame" x="105" y="0.0" width="90" height="75"/>
@@ -57,6 +60,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="clicked8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6cZ-Yd-fgU"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="247" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8z8-cd-l1E" customClass="Sayilar" customModule="Odev5" customModuleProvider="target">
                                                 <rect key="frame" x="210" y="0.0" width="90" height="75"/>
@@ -99,6 +105,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="clicked4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XVw-qt-5AF"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLZ-xO-fjp">
                                                 <rect key="frame" x="105" y="0.0" width="90" height="75"/>
@@ -114,6 +123,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="clicked5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vA5-7J-E1Y"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="247" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sk-wg-qdV">
                                                 <rect key="frame" x="210" y="0.0" width="90" height="75"/>
@@ -129,6 +141,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="clicked6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oGo-HV-Fx3"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -153,6 +168,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="clicked1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DTP-Mg-gXI"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="247" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pph-Zb-o7d">
                                                 <rect key="frame" x="105" y="0.0" width="90" height="75"/>
@@ -168,6 +186,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="clicked2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aMZ-sP-z1M"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="247" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4z-Z2-bpw">
                                                 <rect key="frame" x="210" y="0.0" width="90" height="75"/>
@@ -183,6 +204,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="clicked3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kag-AU-KFF"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -206,6 +230,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="clickedAdd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qbK-LT-AgA"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqD-Qu-pZb">
                                                 <rect key="frame" x="105" y="0.0" width="90" height="75"/>
@@ -221,6 +248,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="clicked0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wxr-sM-71x"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="247" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSa-h5-OBW">
                                                 <rect key="frame" x="210" y="0.0" width="90" height="75"/>
@@ -236,6 +266,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="clickedEqualTo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fbP-qc-T6r"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -260,6 +293,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="clickedClearAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ffa-rG-WDo"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>

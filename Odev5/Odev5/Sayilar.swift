@@ -11,7 +11,8 @@ import UIKit
 
 protocol MyProtocol {
     
-    func topla(ilkSayiMi: Bool, ilkSayi: Int?) -> Int
+    func sayiVarIslem(ilkSayi: Int?) -> Int
+    func sayiYokIslem() -> Int
 }
 
 extension Int {
@@ -25,15 +26,12 @@ class Sayilar : UIButton, MyProtocol {
     
     var degisken: Int?
     
-    func topla(ilkSayiMi: Bool, ilkSayi: Int?) -> Int {
-        var sonuc: Int?
-        if ilkSayiMi == false {
-            sonuc = ilkSayi!.topla(sayi: degisken!)
-        } else {
-            sonuc = degisken
-        
-        }
-        return sonuc!
+    func sayiVarIslem(ilkSayi: Int?) -> Int {
+        return ilkSayi! * 10 + degisken!
+    }
+    
+    func sayiYokIslem() -> Int {
+        return degisken!
     }
 
 }
