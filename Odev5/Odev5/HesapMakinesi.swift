@@ -56,7 +56,8 @@ class HesapMakinesi: UIViewController {
     
         
         //Number Buttons' color
-        
+        //button0.backgroundColor = UIColor(named: "IntButtonColor")
+        //button0.tintColor = UIColor(named: "IntButtonColor")
         
         
     }
