@@ -25,6 +25,10 @@
 
 [11.Ders - CollectionView Kullanımı]()
 
+[12.Ders - Protocol Kullanımı]()
+
+[13.Ders - Viper Kullanımı]()
+
 ---
 
 ### Uygulamalar
@@ -42,3 +46,5 @@
 [3.Ödev - Sayfa Tasarımı](https://github.com/mzyavuz/swift_bootcamp/tree/main/Odev3)
 
 [4.Ödev - Navigation (Sayfa Geçişleri)](https://github.com/mzyavuz/swift_bootcamp/tree/main/Odev4)
+
+[5.Ödev - Hesap Makinesi (Toplama)](https://github.com/mzyavuz/swift_bootcamp/tree/main/Odev5)
