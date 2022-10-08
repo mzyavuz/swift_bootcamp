@@ -32,10 +32,23 @@ class ViewController: UIViewController {
         
         filmlerCollectionView.delegate = self
         filmlerCollectionView.dataSource = self
+        
+        let tasarim = UICollectionViewFlowLayout()
+        
+        tasarim.sectionInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        tasarim.minimumInteritemSpacing = 10 // dikey min. boşluk
+        tasarim.minimumLineSpacing = 10 // yatay min. boşluk
+        
+        let ekranGenisligi = UIScreen.main.bounds.width
+        let hucreGenisligi = (ekranGenisligi - 30) / 2
+        
+        tasarim.itemSize = CGSize(width: hucreGenisligi, height: hucreGenisligi*1.7) // yüksekliği hucregenisligine oranlayıp yaz
+        
+        filmlerCollectionView.collectionViewLayout = tasarim
     }
 }
 
-extension ViewController : UICollectionViewDelegate, UICollectionViewDataSource {
+extension ViewController : UICollectionViewDelegate, UICollectionViewDataSource, HucreProtocol {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return filmlerListesi.count
     }
@@ -46,11 +59,35 @@ extension ViewController : UICollectionViewDelegate, UICollectionViewDataSource 
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "filmHucre", for: indexPath) as! FilmCollectionViewCell
         
         cell.filmAdiLabel.text = film.filmAdi
+        cell.filmImagaView.image = UIImage(named: film.filmResimAdi!)
+        cell.filmFiyatLabel.text = "\(film.filmFiyat!) ₺"
         
         cell.layer.borderColor = UIColor.lightGray.cgColor
         cell.layer.borderWidth = 0.3
         
+        cell.hucreProtocol = self // viewControllerda cell'i işaret eder
+        cell.indexPath = indexPath
+        
         return cell
+    }
+    
+    func buttonaTiklandi(indexPath: IndexPath) {
+        let film = filmlerListesi[indexPath.row]
+        print("\(film.filmAdi!) sepete eklendi")
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let film = filmlerListesi[indexPath.row]
+        performSegue(withIdentifier: "toDetay", sender: film)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toDetay" {
+            if let film = sender as? Filmler {
+                let gidilecekVC = segue.destination as! DetayVC
+                gidilecekVC.film = film
+            }
+        }
     }
 }
 
