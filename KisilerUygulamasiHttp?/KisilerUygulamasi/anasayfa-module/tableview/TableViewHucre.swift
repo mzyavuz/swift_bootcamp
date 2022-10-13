@@ -1,15 +1,16 @@
 //
-//  TableViewKategorilerHucre.swift
-//  Odev6
+//  TableViewHucre.swift
+//  KisilerUygulamasi
 //
-//  Created by M.Zeynep Cakmakci on 8.10.2022.
+//  Created by M.Zeynep Cakmakci on 4.10.2022.
 //
 
 import UIKit
 
-class KategorilerTableViewHucre: UITableViewCell {
+class TableViewHucre: UITableViewCell {
 
-    @IBOutlet weak var kategorilerLabel: UILabel!
+    @IBOutlet weak var kisiBilgiLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

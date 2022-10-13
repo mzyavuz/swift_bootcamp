@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21B2460228F1922B0087D26F /* VAG-Rounded-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21B2460128F1922B0087D26F /* VAG-Rounded-Regular.ttf */; };
-		21B2460428F19CE40087D26F /* KategorilerTableViewHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B2460328F19CE40087D26F /* KategorilerTableViewHucre.swift */; };
+		2138639328F49CDE00C6891B /* KategorilerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2138639228F49CDE00C6891B /* KategorilerCollectionViewCell.swift */; };
+		2138639528F4A17500C6891B /* SizinIcinCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2138639428F4A17500C6891B /* SizinIcinCollectionViewCell.swift */; };
+		213863C028F73D0500C6891B /* VAG Rounded Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 213863BF28F73D0500C6891B /* VAG Rounded Regular.ttf */; };
 		21B2460628F1A5EF0087D26F /* KampanyalarCollectionViewHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B2460528F1A5EF0087D26F /* KampanyalarCollectionViewHucre.swift */; };
 		21B2460828F1A77B0087D26F /* Kampanya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B2460728F1A77B0087D26F /* Kampanya.swift */; };
 		21B8963028F03526000544F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B8962F28F03526000544F6 /* AppDelegate.swift */; };
@@ -20,8 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		21B2460128F1922B0087D26F /* VAG-Rounded-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VAG-Rounded-Regular.ttf"; sourceTree = "<group>"; };
-		21B2460328F19CE40087D26F /* KategorilerTableViewHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorilerTableViewHucre.swift; sourceTree = "<group>"; };
+		2138639228F49CDE00C6891B /* KategorilerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorilerCollectionViewCell.swift; sourceTree = "<group>"; };
+		2138639428F4A17500C6891B /* SizinIcinCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizinIcinCollectionViewCell.swift; sourceTree = "<group>"; };
+		213863BF28F73D0500C6891B /* VAG Rounded Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VAG Rounded Regular.ttf"; sourceTree = "<group>"; };
 		21B2460528F1A5EF0087D26F /* KampanyalarCollectionViewHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampanyalarCollectionViewHucre.swift; sourceTree = "<group>"; };
 		21B2460728F1A77B0087D26F /* Kampanya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kampanya.swift; sourceTree = "<group>"; };
 		21B8962C28F03526000544F6 /* Odev6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Odev6.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,10 +47,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21B2460028F1921F0087D26F /* Fonts */ = {
+		213863BE28F73CF100C6891B /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				21B2460128F1922B0087D26F /* VAG-Rounded-Regular.ttf */,
+				213863BF28F73D0500C6891B /* VAG Rounded Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -75,14 +77,15 @@
 				21B8962F28F03526000544F6 /* AppDelegate.swift */,
 				21B8963128F03526000544F6 /* SceneDelegate.swift */,
 				21B8963328F03526000544F6 /* Anasayfa.swift */,
-				21B2460328F19CE40087D26F /* KategorilerTableViewHucre.swift */,
+				2138639228F49CDE00C6891B /* KategorilerCollectionViewCell.swift */,
 				21B2460528F1A5EF0087D26F /* KampanyalarCollectionViewHucre.swift */,
+				2138639428F4A17500C6891B /* SizinIcinCollectionViewCell.swift */,
 				21B2460728F1A77B0087D26F /* Kampanya.swift */,
 				21B8963528F03526000544F6 /* Main.storyboard */,
 				21B8963828F03527000544F6 /* Assets.xcassets */,
 				21B8963A28F03527000544F6 /* LaunchScreen.storyboard */,
 				21B8963D28F03527000544F6 /* Info.plist */,
-				21B2460028F1921F0087D26F /* Fonts */,
+				213863BE28F73CF100C6891B /* Fonts */,
 			);
 			path = Odev6;
 			sourceTree = "<group>";
@@ -145,7 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21B2460228F1922B0087D26F /* VAG-Rounded-Regular.ttf in Resources */,
+				213863C028F73D0500C6891B /* VAG Rounded Regular.ttf in Resources */,
 				21B8963C28F03527000544F6 /* LaunchScreen.storyboard in Resources */,
 				21B8963928F03527000544F6 /* Assets.xcassets in Resources */,
 				21B8963728F03526000544F6 /* Main.storyboard in Resources */,
@@ -161,8 +164,9 @@
 			files = (
 				21B8963428F03526000544F6 /* Anasayfa.swift in Sources */,
 				21B2460628F1A5EF0087D26F /* KampanyalarCollectionViewHucre.swift in Sources */,
-				21B2460428F19CE40087D26F /* KategorilerTableViewHucre.swift in Sources */,
+				2138639528F4A17500C6891B /* SizinIcinCollectionViewCell.swift in Sources */,
 				21B8963028F03526000544F6 /* AppDelegate.swift in Sources */,
+				2138639328F49CDE00C6891B /* KategorilerCollectionViewCell.swift in Sources */,
 				21B8963228F03526000544F6 /* SceneDelegate.swift in Sources */,
 				21B2460828F1A77B0087D26F /* Kampanya.swift in Sources */,
 			);

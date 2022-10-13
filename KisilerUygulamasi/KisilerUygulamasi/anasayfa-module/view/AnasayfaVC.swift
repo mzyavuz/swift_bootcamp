@@ -15,6 +15,8 @@ class AnasayfaVC: UIViewController {
     
     var kisilerListe = [Kisiler]()
     
+    var anasayfaPresenterNesnesi: ViewToPresenterAnasayfaProtocol?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,10 +25,17 @@ class AnasayfaVC: UIViewController {
         kisilerTableView.delegate = self
         kisilerTableView.dataSource = self
         
-        let k1 = Kisiler(kisi_id: 1, kisi_ad: "Ahmet", kisi_tel: "1111")
-        let k2 = Kisiler(kisi_id: 2, kisi_ad: "Ece", kisi_tel: "2222")
-        kisilerListe.append(k1)
-        kisilerListe.append(k2)
+        veritabaniKopyala()
+        
+        AnasayfaRouter.createModule(ref: self)
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        anasayfaPresenterNesnesi?.kisileriYukle()
+        // Neden burada yapıyoruz?
+        // Her sayfa yeni açıldığında arayüzü güncellememiz gerekiyor
+        // Her gelişte yeni verileri göstermek gerekiyor (Arayüzü güncellememiz gerekiyor)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) { // Sayfa geçişindeki veri transferini okumak için
@@ -38,13 +47,36 @@ class AnasayfaVC: UIViewController {
         }
     }
     
+    func veritabaniKopyala() {
+        //sol taraftaki bütün dosyaların olduğu yere bundle deniliyor
+        let bundleYolu = Bundle.main.path(forResource: "rehber", ofType: ".sqlite")
+        let hedefYol = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
+        let kopyalanacakYer = URL(fileURLWithPath: hedefYol).appendingPathComponent("rehber.sqlite")
+        let fileManager = FileManager.default
+        
+        if fileManager.fileExists(atPath: kopyalanacakYer.path) {
+            print("Veritabanı daha önce kopyalanmış")
+        } else {
+            do {
+                try fileManager.copyItem(atPath: bundleYolu!, toPath: kopyalanacakYer.path)
+            } catch {
+                print(error)
+            }
+        }
+    }
+    
     
 }
-
+extension AnasayfaVC: PresenterToViewAnasayfaProtocol {
+    func vieweVeriGonder(kisilerListesi: [Kisiler]) {
+        self.kisilerListe = kisilerListesi
+        self.kisilerTableView.reloadData() // Dataları tekrar yükle
+    }
+}
 
 extension AnasayfaVC : UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        print("Kişi ara \(searchText)")
+        anasayfaPresenterNesnesi?.ara(aramaKelimesi: searchText)
     }
 }
 
@@ -71,7 +103,6 @@ extension AnasayfaVC : UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-        let kisi = kisilerListe[indexPath.row]
         
         let silAction = UIContextualAction(style: .destructive, title: "Sil") {
             (contexualAction , view, bool) in
@@ -84,7 +115,7 @@ extension AnasayfaVC : UITableViewDelegate, UITableViewDataSource {
             
             let evetAction = UIAlertAction(title: "Evet", style: .destructive) {
                 action in
-                print("Kişi Sil : \(kisi.kisi_id!)")
+                self.anasayfaPresenterNesnesi?.sil(kisi_id: kisi.kisi_id!)
             }
             alert.addAction(evetAction)
             

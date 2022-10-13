@@ -9,5 +9,6 @@ import UIKit
 
 class KampanyalarCollectionViewHucre: UICollectionViewCell {
     
+    @IBOutlet weak var kampanyaImageView: UIImageView!
     @IBOutlet weak var kampanyaLabel: UILabel!
 }

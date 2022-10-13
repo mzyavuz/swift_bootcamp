@@ -7,6 +7,18 @@
 
 import Foundation
 
-class Router {
-    
+class Router: PresenterToRouterProtocol {
+    static func createModule(ref: ViewController) {
+        let presenter = Presenter()
+        
+        //View Katmanı değişkeni
+        ref.presenterNesnesi = presenter
+        
+        //Presenter katmanı değişkeni
+        ref.presenterNesnesi?.interactor = Interactor()
+        ref.presenterNesnesi?.view = ref
+        
+        // Interactor katmanı değişkeni
+        ref.presenterNesnesi?.interactor?.presenter = presenter
+    }
 }
