@@ -48,3 +48,5 @@
 [4.Ödev - Navigation (Sayfa Geçişleri)](https://github.com/mzyavuz/swift_bootcamp/tree/main/Odev4)
 
 [5.Ödev - Hesap Makinesi (Toplama)](https://github.com/mzyavuz/swift_bootcamp/tree/main/Odev5)
+
+[6.Ödev - E-Bebek Anasayfa (Listeleme)](https://github.com/mzyavuz/swift_bootcamp/tree/main/Odev6)
