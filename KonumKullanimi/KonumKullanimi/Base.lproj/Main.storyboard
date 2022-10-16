@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KonumKullanimi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabelEnlem" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ct9-hz-aTy">
+                                <rect key="frame" x="150.66666666666666" y="97" width="89" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabelBoylam" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ka5-ZW-EAD">
+                                <rect key="frame" x="146" y="168" width="98" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabelHiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OaF-WY-MQH">
+                                <rect key="frame" x="161.66666666666666" y="239" width="67" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QR6-MV-Okg">
+                                <rect key="frame" x="20" y="290" width="350" height="500"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="AAl-Vv-kmv"/>
+                                    <constraint firstAttribute="height" constant="500" id="iqb-84-wQc"/>
+                                </constraints>
+                                <standardMapConfiguration key="preferredConfiguration"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QR6-MV-Okg" secondAttribute="bottom" constant="20" id="13G-uA-Cxc"/>
+                            <constraint firstItem="QR6-MV-Okg" firstAttribute="top" secondItem="OaF-WY-MQH" secondAttribute="bottom" constant="30" id="1Xd-WJ-oYu"/>
+                            <constraint firstItem="ct9-hz-aTy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="96h-Sc-C3g"/>
+                            <constraint firstItem="OaF-WY-MQH" firstAttribute="top" secondItem="Ka5-ZW-EAD" secondAttribute="bottom" constant="50" id="CH8-GW-rfR"/>
+                            <constraint firstItem="ct9-hz-aTy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="KKf-8z-Mh5"/>
+                            <constraint firstItem="QR6-MV-Okg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="OjL-V2-1Tq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QR6-MV-Okg" secondAttribute="trailing" constant="20" id="U34-k6-0Ga"/>
+                            <constraint firstItem="Ka5-ZW-EAD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Z48-ep-Mfn"/>
+                            <constraint firstItem="OaF-WY-MQH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zpw-T5-Pa6"/>
+                            <constraint firstItem="Ka5-ZW-EAD" firstAttribute="top" secondItem="ct9-hz-aTy" secondAttribute="bottom" constant="50" id="z0p-78-Fmp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="harita" destination="QR6-MV-Okg" id="9qY-Fe-ioO"/>
+                        <outlet property="labelBoylam" destination="Ka5-ZW-EAD" id="CGv-gd-Jd5"/>
+                        <outlet property="labelEnlem" destination="ct9-hz-aTy" id="2bq-pj-wrB"/>
+                        <outlet property="labelHiz" destination="OaF-WY-MQH" id="IaF-h4-5fe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.692307692307693" y="-2.1327014218009479"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
