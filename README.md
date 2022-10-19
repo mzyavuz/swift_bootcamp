@@ -31,11 +31,29 @@
 
 [14.Ders - UserDefault Kullanımı](https://github.com/mzyavuz/swift_bootcamp/tree/main/UserDefaultKullanimi/UserDefaultKullanimi)
 
+[15.Ders - İnternet Resim Kullanımı](https://github.com/mzyavuz/swift_bootcamp/tree/main/IntResimKullanimi/IntResimKullanimi)
+
+[16.Ders - Bildirim Kullanımı](https://github.com/mzyavuz/swift_bootcamp/tree/main/BildirimKullanimi/BildirimKullanimi)
+
+[17.Ders - Konum ve Harita Kullanımı](https://github.com/mzyavuz/swift_bootcamp/tree/main/KonumKullanimi/KonumKullanimi)
+
 ---
 
 ### Uygulamalar
 
 [Kişiler Uygulaması](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasi/KisilerUygulamasi)
+
+[Viper](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasiViper/KisilerUygulamasi)
+
+[SQLite](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasiSQLite/KisilerUygulamasi)
+
+[Coredata](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasiCoreData/KisilerUygulamasi)
+
+[URLSession](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasiURLSession/KisilerUygulamasi)
+
+[Alamofire](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasiAlamofire/KisilerUygulamasi)
+
+[Firebase](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasiFirebase/KisilerUygulamasi)
 
 ---
 
