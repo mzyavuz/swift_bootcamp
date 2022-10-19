@@ -25,9 +25,9 @@
 
 [11.Ders - CollectionView Kullanımı](https://github.com/mzyavuz/swift_bootcamp/tree/main/DetayliCollectionView)
 
-[12.Ders - Protocol Kullanımı]()
+[12.Ders - Protocol Kullanımı](https://github.com/mzyavuz/swift_bootcamp/tree/main/ProtocolKullanimi/ProtocolKullanimi)
 
-[13.Ders - Viper Kullanımı]()
+[13.Ders - Viper Kullanımı](https://github.com/mzyavuz/swift_bootcamp/tree/main/ViperKullanimi/ViperKullanimi)
 
 ---
 
