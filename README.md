@@ -50,3 +50,5 @@
 [5.Ödev - Hesap Makinesi (Toplama)](https://github.com/mzyavuz/swift_bootcamp/tree/main/Odev5)
 
 [6.Ödev - E-Bebek Anasayfa (Listeleme)](https://github.com/mzyavuz/swift_bootcamp/tree/main/Odev6)
+
+[7.Ödev - ToDo App (Viper & TableView)](https://github.com/mzyavuz/swift_bootcamp/tree/main/Odev7)
