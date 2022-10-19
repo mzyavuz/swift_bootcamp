@@ -10,37 +10,14 @@ import Foundation
 class AnasayfaInteractor: PresenterToInteractorAnasayfaProtocol {
     var anasayfaPresenter: InteractorToPresenterAnasayfaProtocol?
     
-    
-    let db: FMDatabase?
-    
-    init() {
-        let hedefYol = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
-        let kopyalanacakYer = URL(fileURLWithPath: hedefYol).appendingPathComponent("rehber.sqlite")
-        
-        db = FMDatabase(path: kopyalanacakYer.path)
-    }
-    
     func tumKisilerAl() {
         var liste = [Kisiler]()
         
-        db?.open()
-        
-        do {
-            let r = try db!.executeQuery("SELECT * FROM kisiler", values: nil)
-            
-            while r.next() {
-                let kisi = Kisiler(kisi_id: Int(r.string(forColumn: "kisi_id"))!,
-                                   kisi_ad: r.string(forColumn: "kisi_ad")!,
-                                   kisi_tel: r.string(forColumn: "kisi_tel")!
-                )
-                liste.append(kisi)
-            }
-            anasayfaPresenter?.presenteraVeriGonder(kisilerListesi: liste)
-        }catch{
-            print(error.localizedDescription)
-        }
-        
-        db?.close()
+        let k1 = Kisiler(kisi_id: 1, kisi_ad: "Ahmet", kisi_tel: "1111")
+        let k2 = Kisiler(kisi_id: 2, kisi_ad: "Ece", kisi_tel: "2222")
+        liste.append(k1)
+        liste.append(k2)
+        anasayfaPresenter?.presenteraVeriGonder(kisilerListesi: liste)
     }
     
     func kisiAra(aramaKelimesi: String) {

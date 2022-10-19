@@ -19,7 +19,7 @@ class AnasayfaPresenter: ViewToPresenterAnasayfaProtocol {
         anasayfaInteractor?.kisiAra(aramaKelimesi: aramaKelimesi)
     }
     
-    func sil(kisi_id: Int) {
+    func sil(kisi_id: String) {
         anasayfaInteractor?.kisiSil(kisi_id: kisi_id)
     }
     

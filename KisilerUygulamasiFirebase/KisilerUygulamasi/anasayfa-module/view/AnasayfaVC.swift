@@ -27,14 +27,9 @@ class AnasayfaVC: UIViewController {
         
         AnasayfaRouter.createModule(ref: self)
         
+        anasayfaPresenterNesnesi?.kisileriYukle()
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        anasayfaPresenterNesnesi?.kisileriYukle()
-        // Neden burada yapıyoruz?
-        // Her sayfa yeni açıldığında arayüzü güncellememiz gerekiyor
-        // Her gelişte yeni verileri göstermek gerekiyor (Arayüzü güncellememiz gerekiyor)
-    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) { // Sayfa geçişindeki veri transferini okumak için
         if segue.identifier == "toDetay" {
@@ -50,13 +45,21 @@ class AnasayfaVC: UIViewController {
 extension AnasayfaVC: PresenterToViewAnasayfaProtocol {
     func vieweVeriGonder(kisilerListesi: [Kisiler]) {
         self.kisilerListe = kisilerListesi
-        self.kisilerTableView.reloadData() // Dataları tekrar yükle
+        DispatchQueue.main.async {
+            self.kisilerTableView.reloadData()
+        }
     }
 }
 
 extension AnasayfaVC : UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        anasayfaPresenterNesnesi?.ara(aramaKelimesi: searchText)
+        
+        if searchText == "" {
+            anasayfaPresenterNesnesi?.kisileriYukle()
+        } else {
+            anasayfaPresenterNesnesi?.ara(aramaKelimesi: searchText)
+        }
+        
     }
 }
 

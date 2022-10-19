@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21085BDD28FC676400F72654 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21085BDC28FC676400F72654 /* GoogleService-Info.plist */; };
+		21085BE028FC695B00F72654 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 21085BDF28FC695B00F72654 /* FirebaseDatabase */; };
 		211BF99528EC98B6004DE90E /* TableViewHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211BF99428EC98B6004DE90E /* TableViewHucre.swift */; };
 		2148D81028EA13370014A680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148D80F28EA13370014A680 /* AppDelegate.swift */; };
 		2148D81228EA13370014A680 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148D81128EA13370014A680 /* SceneDelegate.swift */; };
@@ -32,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21085BDC28FC676400F72654 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		211BF99428EC98B6004DE90E /* TableViewHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHucre.swift; sourceTree = "<group>"; };
 		2148D80C28EA13370014A680 /* KisilerUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KisilerUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2148D80F28EA13370014A680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21085BE028FC695B00F72654 /* FirebaseDatabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +102,7 @@
 				2148D81828EA13380014A680 /* Assets.xcassets */,
 				2148D81A28EA13380014A680 /* LaunchScreen.storyboard */,
 				2148D81D28EA13380014A680 /* Info.plist */,
+				21085BDC28FC676400F72654 /* GoogleService-Info.plist */,
 			);
 			path = KisilerUygulamasi;
 			sourceTree = "<group>";
@@ -291,6 +296,9 @@
 			dependencies = (
 			);
 			name = KisilerUygulamasi;
+			packageProductDependencies = (
+				21085BDF28FC695B00F72654 /* FirebaseDatabase */,
+			);
 			productName = KisilerUygulamasi;
 			productReference = 2148D80C28EA13370014A680 /* KisilerUygulamasi.app */;
 			productType = "com.apple.product-type.application";
@@ -319,6 +327,9 @@
 				Base,
 			);
 			mainGroup = 2148D80328EA13370014A680;
+			packageReferences = (
+				21085BDE28FC695B00F72654 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 2148D80D28EA13370014A680 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -334,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2148D81C28EA13380014A680 /* LaunchScreen.storyboard in Resources */,
+				21085BDD28FC676400F72654 /* GoogleService-Info.plist in Resources */,
 				2148D81928EA13380014A680 /* Assets.xcassets in Resources */,
 				2148D81728EA13370014A680 /* Main.storyboard in Resources */,
 			);
@@ -580,6 +592,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		21085BDE28FC695B00F72654 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		21085BDF28FC695B00F72654 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21085BDE28FC695B00F72654 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2148D80428EA13370014A680 /* Project object */;
 }

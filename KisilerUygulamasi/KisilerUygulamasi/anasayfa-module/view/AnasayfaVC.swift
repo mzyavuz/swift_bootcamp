@@ -25,8 +25,6 @@ class AnasayfaVC: UIViewController {
         kisilerTableView.delegate = self
         kisilerTableView.dataSource = self
         
-        veritabaniKopyala()
-        
         AnasayfaRouter.createModule(ref: self)
         
     }
@@ -43,24 +41,6 @@ class AnasayfaVC: UIViewController {
             if let kisi = sender as? Kisiler {
                 let gidilecekVC = segue.destination as! KisiDetayVC
                 gidilecekVC.kisi = kisi
-            }
-        }
-    }
-    
-    func veritabaniKopyala() {
-        //sol taraftaki bütün dosyaların olduğu yere bundle deniliyor
-        let bundleYolu = Bundle.main.path(forResource: "rehber", ofType: ".sqlite")
-        let hedefYol = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
-        let kopyalanacakYer = URL(fileURLWithPath: hedefYol).appendingPathComponent("rehber.sqlite")
-        let fileManager = FileManager.default
-        
-        if fileManager.fileExists(atPath: kopyalanacakYer.path) {
-            print("Veritabanı daha önce kopyalanmış")
-        } else {
-            do {
-                try fileManager.copyItem(atPath: bundleYolu!, toPath: kopyalanacakYer.path)
-            } catch {
-                print(error)
             }
         }
     }
