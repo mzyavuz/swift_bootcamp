@@ -43,17 +43,17 @@
 
 [Kişiler Uygulaması](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasi/KisilerUygulamasi)
 
-[Viper](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasiViper/KisilerUygulamasi)
+[Kişiler Uygulaması Viper](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasiViper/KisilerUygulamasi)
 
-[SQLite](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasiSQLite/KisilerUygulamasi)
+[Kişiler Uygulaması SQLite](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasiSQLite/KisilerUygulamasi)
 
-[Coredata](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasiCoreData/KisilerUygulamasi)
+[Kişiler Uygulaması Coredata](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasiCoreData/KisilerUygulamasi)
 
-[URLSession](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasiURLSession/KisilerUygulamasi)
+[Kişiler Uygulaması URLSession](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasiURLSession/KisilerUygulamasi)
 
-[Alamofire](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasiAlamofire/KisilerUygulamasi)
+[Kişiler Uygulaması Alamofire](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasiAlamofire/KisilerUygulamasi)
 
-[Firebase](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasiFirebase/KisilerUygulamasi)
+[Kişiler Uygulaması Firebase](https://github.com/mzyavuz/swift_bootcamp/tree/main/KisilerUygulamasiFirebase/KisilerUygulamasi)
 
 ---
 
