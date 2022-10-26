@@ -11,9 +11,10 @@ class SepetVC: UIViewController {
 
     @IBOutlet weak var sepetKullaniciLabel: UILabel!
     @IBOutlet weak var sepetTableView: UITableView!
-    @IBOutlet weak var sepetUcretTable: UILabel!
+    @IBOutlet weak var sepetUcretLabel: UILabel!
     
     var sepettekiYemekListe = [Yemek]()
+    var sepetUcret = 0
     
     var kullanici_adi = "mzyavuz"
         
@@ -29,10 +30,12 @@ class SepetVC: UIViewController {
         sepetKullaniciLabel.text = kullanici_adi
         
         SepetRouter.createModule(ref: self)
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
         sepetPresenterNesnesi?.sepettekiYemekleriYukle(kullanici_adi: kullanici_adi)
+      
     }
     
     @IBAction func siparisVerButton(_ sender: Any) {
@@ -42,11 +45,17 @@ class SepetVC: UIViewController {
 }
 
 extension SepetVC: PresenterToViewSepetProtocol {
+    
     func vieweVeriGonder(sepetYemekListe: [Yemek]) {
         self.sepettekiYemekListe = sepetYemekListe
         DispatchQueue.main.async {
             self.sepetTableView.reloadData()
-            
+        }
+    }
+    
+    func viewaToplamUcretiGonder(sepet_ucret: Int) {
+        DispatchQueue.main.async {
+            self.sepetUcretLabel.text = String(sepet_ucret) + " ₺"
         }
     }
 }
@@ -63,7 +72,6 @@ extension SepetVC : UITableViewDelegate, UITableViewDataSource {
         ResimFunction().resimYukle(yemek: yemek, imageView: hucre.sepetYemekResim)
         hucre.sepetYemekAdLabel.text = yemek.yemek_adi!
         hucre.sepetSiparisAdetLabel.text = yemek.yemek_siparis_adet!
-        yemek.toplam_ucret = UcretHesap().siparisHesap(yemek: yemek)
         hucre.sepetUcretLabel.text = String(yemek.toplam_ucret ?? 0) + " ₺"
         
         return hucre

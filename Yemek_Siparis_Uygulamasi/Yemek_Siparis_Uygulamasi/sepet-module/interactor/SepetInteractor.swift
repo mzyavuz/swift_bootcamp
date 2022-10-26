@@ -45,7 +45,6 @@ class SepetInteractor: PresenterToInteractorSepetProtocol {
               URLSession.shared.dataTask(with: istek) {data,response,error in
                   do {
                       let cevap = try JSONSerialization.jsonObject(with: data!)
-                      print(cevap)
                       self.sepettekiTumYemekleriAl(kullanici_adi: kullanici_adi)
                   }catch{
                       print(error.localizedDescription)
@@ -65,7 +64,7 @@ extension SepetInteractor {
     
     func sepetListeDuzenleme(sepetListe: [Yemek]) -> [Yemek] {
         var duzenlenmisListe = [Yemek]()
-        var kullanici_adi = sepetListe.first!.kullanici_adi!
+        let kullanici_adi = sepetListe.first!.kullanici_adi!
         for i in sepetListe {
             var sepetteVarMi = false
             for j in duzenlenmisListe {
@@ -83,6 +82,12 @@ extension SepetInteractor {
                 duzenlenmisListe.append(i)
             }
         }
+        var sepet_ucret = 0
+        for y in duzenlenmisListe {
+            y.toplam_ucret = Int(y.yemek_fiyat!)! * Int(y.yemek_siparis_adet!)!
+            sepet_ucret += y.toplam_ucret!
+        }
+        self.sepetPresenter?.presenteraToplamUcretiGonder(sepet_ucret: sepet_ucret)
         return duzenlenmisListe
     }
 }

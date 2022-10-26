@@ -24,8 +24,13 @@ class SepetPresenter: ViewToPresenterSepetProtocol {
 }
 
 extension SepetPresenter: InteractorToPresenterSepetProtocol {
+
     func presenteraVeriGonder(sepetYemekListe: [Yemek]) {
         sepetView?.vieweVeriGonder(sepetYemekListe: sepetYemekListe)
+    }
+    
+    func presenteraToplamUcretiGonder(sepet_ucret: Int) {
+        sepetView?.viewaToplamUcretiGonder(sepet_ucret: sepet_ucret)
     }
     
     

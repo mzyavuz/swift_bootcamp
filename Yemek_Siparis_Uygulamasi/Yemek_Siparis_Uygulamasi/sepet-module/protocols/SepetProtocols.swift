@@ -20,15 +20,16 @@ protocol PresenterToInteractorSepetProtocol {
     
     func sepettekiTumYemekleriAl(kullanici_adi: String)
     func sepettenYemekSil(sepet_yemek_id: String, kullanici_adi: String)
-
 }
 
 protocol InteractorToPresenterSepetProtocol {
     func presenteraVeriGonder(sepetYemekListe: [Yemek])
+    func presenteraToplamUcretiGonder(sepet_ucret: Int)
 }
 
 protocol PresenterToViewSepetProtocol {
     func vieweVeriGonder(sepetYemekListe: [Yemek])
+    func viewaToplamUcretiGonder(sepet_ucret: Int)
 }
 
 protocol PresenterToRouterSepetProtocol {
