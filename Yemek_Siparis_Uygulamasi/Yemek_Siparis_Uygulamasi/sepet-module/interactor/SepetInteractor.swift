@@ -74,7 +74,6 @@ extension SepetInteractor {
                     sepettenYemekSil(sepet_yemek_id: i.sepet_yemek_id!, kullanici_adi: kullanici_adi)
                     sepettenYemekSil(sepet_yemek_id: j.sepet_yemek_id!, kullanici_adi: kullanici_adi)
                     YemekDetayInteractor().yemekSepeteEkle(yemek: j, yemek_siparis_adet: j.yemek_siparis_adet!, kullanici_adi: kullanici_adi)
-                    sepettekiTumYemekleriAl(kullanici_adi: kullanici_adi)
                     break
                 }
             }

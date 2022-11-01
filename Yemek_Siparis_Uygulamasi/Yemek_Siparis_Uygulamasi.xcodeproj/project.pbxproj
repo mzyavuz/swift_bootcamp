@@ -33,8 +33,8 @@
 		21299C44290482D100A66C95 /* SepetInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21299C43290482D100A66C95 /* SepetInteractor.swift */; };
 		21299C47290484AC00A66C95 /* SepetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21299C46290484AC00A66C95 /* SepetTableViewCell.swift */; };
 		21299C492904865C00A66C95 /* SepetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21299C482904865C00A66C95 /* SepetVC.swift */; };
-		215DE39D2906C55C00637CFE /* UcretHesap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215DE39C2906C55C00637CFE /* UcretHesap.swift */; };
 		215DE39F2906C65C00637CFE /* SiparisDuzenleme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215DE39E2906C65C00637CFE /* SiparisDuzenleme.swift */; };
+		218C4FDD29113FA100F3A3E4 /* IlkSayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218C4FDC29113FA100F3A3E4 /* IlkSayfaVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,8 +65,8 @@
 		21299C43290482D100A66C95 /* SepetInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetInteractor.swift; sourceTree = "<group>"; };
 		21299C46290484AC00A66C95 /* SepetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetTableViewCell.swift; sourceTree = "<group>"; };
 		21299C482904865C00A66C95 /* SepetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetVC.swift; sourceTree = "<group>"; };
-		215DE39C2906C55C00637CFE /* UcretHesap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UcretHesap.swift; sourceTree = "<group>"; };
 		215DE39E2906C65C00637CFE /* SiparisDuzenleme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiparisDuzenleme.swift; sourceTree = "<group>"; };
+		218C4FDC29113FA100F3A3E4 /* IlkSayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlkSayfaVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +102,12 @@
 			children = (
 				21299BF529040C1100A66C95 /* AppDelegate.swift */,
 				21299BF729040C1100A66C95 /* SceneDelegate.swift */,
+				218C4FDC29113FA100F3A3E4 /* IlkSayfaVC.swift */,
 				21299C11290411E900A66C95 /* sepet-module */,
 				21299C10290411CD00A66C95 /* yemek-detay-module */,
 				21299C162904158E00A66C95 /* anasayfa-module */,
 				21299C0B2904103100A66C95 /* entity */,
 				21299C362904768500A66C95 /* ResimFunction.swift */,
-				215DE39C2906C55C00637CFE /* UcretHesap.swift */,
 				215DE39E2906C65C00637CFE /* SiparisDuzenleme.swift */,
 				21299BFB29040C1100A66C95 /* Main.storyboard */,
 				21299BFE29040C1200A66C95 /* Assets.xcassets */,
@@ -385,13 +385,13 @@
 				215DE39F2906C65C00637CFE /* SiparisDuzenleme.swift in Sources */,
 				21299BFA29040C1100A66C95 /* Anasayfa.swift in Sources */,
 				21299BF629040C1100A66C95 /* AppDelegate.swift in Sources */,
+				218C4FDD29113FA100F3A3E4 /* IlkSayfaVC.swift in Sources */,
 				21299C372904768500A66C95 /* ResimFunction.swift in Sources */,
 				21299C42290482C300A66C95 /* SepetPresenter.swift in Sources */,
 				21299C0A29040E6500A66C95 /* YemekCollectionViewHucre.swift in Sources */,
 				21299BF829040C1100A66C95 /* SceneDelegate.swift in Sources */,
 				21299C33290422F900A66C95 /* YemekDetayPresenter.swift in Sources */,
 				21299C40290482BB00A66C95 /* SepetProtocols.swift in Sources */,
-				215DE39D2906C55C00637CFE /* UcretHesap.swift in Sources */,
 				21299C47290484AC00A66C95 /* SepetTableViewCell.swift in Sources */,
 				21299C0D2904104000A66C95 /* Yemek.swift in Sources */,
 				21299C30290422E700A66C95 /* YemekDetayProtocols.swift in Sources */,

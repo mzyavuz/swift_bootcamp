@@ -12,6 +12,7 @@ class Anasayfa: UIViewController {
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var yemekCollectionView: UICollectionView!
     
+    var kullanici_adi: String?
     var yemekListe = [Yemek]()
     
     var anasayfaPresenterNesnesi: ViewToPresenterAnasayfaProtocol?
@@ -55,7 +56,11 @@ extension Anasayfa: PresenterToViewAnasayfaProtocol {
 
 extension Anasayfa: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        
+        if searchText == "" {
+            anasayfaPresenterNesnesi?.yemekleriYukle()
+        } else {
+            anasayfaPresenterNesnesi?.ara(aramaKelimesi: searchText)
+        }
     }
 }
 
@@ -91,11 +96,12 @@ extension Anasayfa: UICollectionViewDelegate, UICollectionViewDataSource, HucreP
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let yemek = yemekListe[indexPath.row]
-        performSegue(withIdentifier: "toDetay", sender: yemek)
+        yemek.kullanici_adi = kullanici_adi
+        performSegue(withIdentifier: "yemekToDetay", sender: yemek)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "toDetay"
+        if segue.identifier == "yemekToDetay"
         {
             if let yemek = sender as? Yemek {
                 let gidilecekVC = segue.destination as! YemekDetayVC

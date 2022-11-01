@@ -12,11 +12,13 @@ class SepetVC: UIViewController {
     @IBOutlet weak var sepetKullaniciLabel: UILabel!
     @IBOutlet weak var sepetTableView: UITableView!
     @IBOutlet weak var sepetUcretLabel: UILabel!
+    @IBOutlet weak var sepetBosaltButton: UIButton!
+    @IBOutlet weak var siparisVerButton: UIButton!
     
     var sepettekiYemekListe = [Yemek]()
     var sepetUcret = 0
     
-    var kullanici_adi = "mzyavuz"
+    var kullanici_adi = "Melike"
         
     var sepetPresenterNesnesi: ViewToPresenterSepetProtocol?
     
@@ -27,19 +29,63 @@ class SepetVC: UIViewController {
         sepetTableView.dataSource = self
 
         SepetRouter.createModule(ref: self)
-        sepetKullaniciLabel.text = kullanici_adi
+        
+        sepetKullaniciLabel.text = "\(kullanici_adi)'ının Sepeti"
         
         SepetRouter.createModule(ref: self)
+        
+        sepetTableView.rowHeight = 100.0
         
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        sepetPresenterNesnesi?.sepettekiYemekleriYukle(kullanici_adi: kullanici_adi)
+        DispatchQueue.main.async {
+            self.sepetPresenterNesnesi?.sepettekiYemekleriYukle(kullanici_adi: self.kullanici_adi)
+        }
       
     }
     
-    @IBAction func siparisVerButton(_ sender: Any) {
+    @IBAction func sepetBosaltButtonaBasildi(_ sender: Any) {
         
+        let alertController = UIAlertController(title: "Sepeti Boşalt", message: "Tüm Sepeti Boşaltmak İstediğinizden Emin Misiniz?", preferredStyle: .alert)
+             
+         self.present(alertController, animated: true)
+         
+         let iptalAction = UIAlertAction(title: "Hayır", style: .cancel) { action in
+             
+         }
+         alertController.addAction(iptalAction)
+         
+         let tamamAction = UIAlertAction(title: "Evet", style: .destructive) { action in
+             for i in self.sepettekiYemekListe {
+                 self.sepetPresenterNesnesi?.yemekSil(sepet_yemek_id: i.sepet_yemek_id!, kullanici_adi: self.kullanici_adi)
+                 self.viewaToplamUcretiGonder(sepet_ucret: self.sepetUcret)
+             }
+             
+         }
+         alertController.addAction(tamamAction)
+        
+      
+    }
+    
+    @IBAction func siparisVerButtonaBasildi(_ sender: Any) {
+        
+        let alertController = UIAlertController(title: "Siparişinizi Onaylıyor Musunuz?", message: "", preferredStyle: .actionSheet)
+        
+         self.present(alertController, animated: true)
+         
+         let iptalAction = UIAlertAction(title: "Hayır", style: .cancel) {
+             action in 
+         }
+         alertController.addAction(iptalAction)
+         
+         let tamamAction = UIAlertAction(title: "Evet", style: .destructive) {
+             action in for i in self.sepettekiYemekListe {
+                 self.sepetPresenterNesnesi?.yemekSil(sepet_yemek_id: i.sepet_yemek_id!, kullanici_adi: self.kullanici_adi)
+                 self.viewaToplamUcretiGonder(sepet_ucret: self.sepetUcret)
+             }
+         }
+         alertController.addAction(tamamAction)
     }
     
 }
@@ -50,6 +96,12 @@ extension SepetVC: PresenterToViewSepetProtocol {
         self.sepettekiYemekListe = sepetYemekListe
         DispatchQueue.main.async {
             self.sepetTableView.reloadData()
+            if sepetYemekListe.count != 0 {
+                self.sepetBosaltButton.isHidden = false
+            } else {
+                self.sepetBosaltButton.isHidden = true
+                self.siparisVerButton.isEnabled = false
+            }
         }
     }
     
@@ -83,13 +135,14 @@ extension SepetVC : UITableViewDelegate, UITableViewDataSource {
             (contexualAction , view, bool) in
             let yemek = self.sepettekiYemekListe[indexPath.row]
             
-            let alert = UIAlertController(title: "Silme İşlemi", message: "\(yemek.yemek_adi!) silinsin mi?", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Silme İşlemi", message: "\(yemek.yemek_adi!) sepetten çıkarılsın mı?", preferredStyle: .alert)
             
             let iptalAction = UIAlertAction(title: "İptal", style: .cancel)
             alert.addAction(iptalAction)
             
             let evetAction = UIAlertAction(title: "Evet", style: .destructive) { action in
                 self.sepetPresenterNesnesi?.yemekSil(sepet_yemek_id: yemek.sepet_yemek_id!, kullanici_adi: self.kullanici_adi)
+                self.viewaToplamUcretiGonder(sepet_ucret: self.sepetUcret)
             }
             alert.addAction(evetAction)
             

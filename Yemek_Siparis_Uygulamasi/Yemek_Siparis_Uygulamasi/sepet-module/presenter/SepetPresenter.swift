@@ -8,6 +8,7 @@
 import Foundation
 
 class SepetPresenter: ViewToPresenterSepetProtocol {
+    
     var sepetInteractor: PresenterToInteractorSepetProtocol?
     
     var sepetView: PresenterToViewSepetProtocol?
@@ -19,7 +20,6 @@ class SepetPresenter: ViewToPresenterSepetProtocol {
     func yemekSil(sepet_yemek_id: String, kullanici_adi: String) {
         sepetInteractor?.sepettenYemekSil(sepet_yemek_id: sepet_yemek_id, kullanici_adi: kullanici_adi)
     }
-    
     
 }
 
